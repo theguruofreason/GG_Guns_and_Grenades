@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- remove superfluous research -->
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing" or defName="GasOperation" or defName="PrecisionRifling"]</xpath>
+	</Operation>
+	
+	<!-- alter vanilla research prereqs -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="Mortars"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>GrenadeLaunchers</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>AdvancedFirearms</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>GunTurrets</li>
+				<li>MicroelectronicsBasics</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>HeavyTurrets</li>
+				<li>MultiAnalyzer</li>
+				<li>FiftyCalWeapons</li>
+			</prerequisites>
+		</value>
+	</Operation>
+	
+	<!-- remove vanilla weapons -->
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]</xpath>
+	</Operation>
+	
+	<!-- alter vanilla grenade base -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="BaseGrenadeProjectile"]/projectile/speed</xpath>
+		<value>
+			<speed>20</speed>
+		</value>
+	</Operation>
+	
+	<!-- alter vanilla molotov and frag -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/costList/ChemFuel</xpath>
+		<value>
+			<Chemfuel>30</Chemfuel>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_Explosive">
+					<explosiveRadius>3.2</explosiveRadius>
+					<explosiveDamageType>Flame</explosiveDamageType>
+					<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Proj_GrenadeMolotov"]/projectile</xpath>
+		<value>
+			<projectile>
+				<explosionRadius>2.4</explosionRadius>
+				<damageDef>GG_MolitovFlame</damageDef>
+				<!-- Use default damage from explosion def -->
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<ai_IsIncendiary>true</ai_IsIncendiary>
+			</projectile>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_Explosive">
+					<explosiveRadius>5.2</explosiveRadius>
+					<explosiveDamageType>GG_FragGrenadeBomb</explosiveDamageType>
+					<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Proj_GrenadeFrag"]/projectile</xpath>
+		<value>
+			<projectile>
+				<explosionRadius>3.6</explosionRadius>
+				<damageDef>GG_FragGrenadeBomb</damageDef>
+				<!-- Use default damage from explosion def -->
+				<explosionDelay>120</explosionDelay>
+			</projectile>
+		</value>
+	</Operation>
+	
+	<!-- alter vanilla incendiary launcher -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Bullet_IncendiaryLauncher"]/projectile</xpath>
+		<value>
+			<projectile>
+				<speed>40</speed>
+				<damageDef>GG_IncendiaryFlame</damageDef>
+				<explosionRadius>2.4</explosionRadius>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>0.7</preExplosionSpawnChance>
+				<ai_IsIncendiary>true</ai_IsIncendiary>
+			</projectile>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/ParentName</xpath>
+		<value>
+			<ParentName>GG_BaseMakeableGunGL</ParentName>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>58000</WorkToMake>
+				<Mass>4.6</Mass>
+				<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+			</statBases>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>75</Steel>
+				<WoodLog>5</WoodLog>
+				<ComponentIndustrial>5</ComponentIndustrial>
+				<Chemfuel>60</Chemfuel>
+			</costList>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/generateCommonality</xpath>
+		<value>
+			<generateCommonality>0.05</generateCommonality>
+		</value>
+	</Operation>
+	
+</Patch>
