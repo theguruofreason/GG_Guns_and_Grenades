@@ -55,7 +55,7 @@
 
   <ThingDef Name="GG_BaseMakeableGunSG" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>SimpleGunsmithing</researchPrerequisite>
+			<researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -73,7 +73,7 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunRA" ParentName="GG_RudimentaryGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunRA" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>RepeatingActions</researchPrerequisite>
     </recipeMaker>
@@ -83,7 +83,7 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunR" ParentName="GG_RudimentaryGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunR" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>Rifling</researchPrerequisite>
     </recipeMaker>
@@ -93,7 +93,7 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunBO" ParentName="GG_ModernGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunBO" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>BlowbackOperation</researchPrerequisite>
     </recipeMaker>
@@ -102,7 +102,7 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunHCR" ParentName="GG_ModernGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunHCR" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>HighCaliberRounds</researchPrerequisite>
     </recipeMaker>
@@ -111,7 +111,7 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunO" ParentName="GG_ModernGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunO" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>Optics</researchPrerequisite>
     </recipeMaker>
@@ -120,7 +120,7 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunAF" ParentName="GG_ModernGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunAF" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>AdvancedFirearms</researchPrerequisite>
     </recipeMaker>
@@ -129,25 +129,25 @@
     </weaponTags>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunMBW" ParentName="GG_SpacerGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunMBW" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>MultiBarrelWeapons</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunBFW" ParentName="GG_SpacerGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunBFW" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>BeltFedWeapons</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunCS" ParentName="GG_SpacerGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunCS" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>ChargedShot</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
-    <ThingDef Name="GG_BaseMakeableGunFCW" ParentName="GG_SpacerGun" Abstract="True">
+  <ThingDef Name="GG_BaseMakeableGunFCW" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
 			<researchPrerequisite>FiftyCalWeapons</researchPrerequisite>
     </recipeMaker>
@@ -302,7 +302,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>GG_Bullet_308</defName>
+    <defName>GG_Bullet_308x</defName>
     <label>308 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -334,7 +334,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>GG_Bullet_762</defName>
+    <defName>GG_Bullet_762x</defName>
     <label>762 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -366,7 +366,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>GG_Bullet_556</defName>
+    <defName>GG_Bullet_556x</defName>
     <label>556 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -398,7 +398,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>GG_Bullet_357</defName>
+    <defName>GG_Bullet_357x</defName>
     <label>357 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>

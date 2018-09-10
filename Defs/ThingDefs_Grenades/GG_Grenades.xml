@@ -53,7 +53,7 @@
 			<li>GrenadeDestructive</li>
 		</weaponTags>
 		<thingCategories>
-			<li>SimpleGrenades</li>
+			<li>Grenades</li>
 		</thingCategories>
 		<verbs>
 			<li>
@@ -83,7 +83,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseGrenadeProjectile">
-		<defName>Proj_CastGrenade</defName>
+		<defName>GG_Proj_CastGrenade</defName>
 		<label>frag grenade</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
@@ -248,6 +248,89 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+	
+  <ThingDef ParentName="GG_BaseMakeableGunGL">
+		<defName>Gun_IncendiaryLauncher</defName>
+		<label>incendiary launcher</label>
+    <description>A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/IncendiaryLauncher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<generateCommonality>0.05</generateCommonality>
+		<statBases>
+				<WorkToMake>58000</WorkToMake>
+				<Mass>4.6</Mass>
+				<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>75</Steel>
+			<WoodLog>5</WoodLog>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Chemfuel>60</Chemfuel>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>23.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_IncendiaryLauncher</defName>
+    <label>incendiary bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/InfernoCannonShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Flame</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>1.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
   </ThingDef>
 	
 </Defs>
