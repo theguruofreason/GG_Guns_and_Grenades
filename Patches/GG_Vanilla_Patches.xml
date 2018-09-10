@@ -52,10 +52,21 @@
 		</value>
 	</Operation>
 	
-	<!-- remove vanilla weapons -->
+	<!-- alter vanilla minigun -->
 	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]</xpath>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_Minigun"]/recipeMaker</xpath>
+		<value>
+    <recipeMaker>
+      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+		</value>
 	</Operation>
 	
 	<!-- alter vanilla grenade base -->
