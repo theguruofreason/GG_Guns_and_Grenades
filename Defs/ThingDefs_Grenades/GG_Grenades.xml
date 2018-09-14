@@ -13,6 +13,7 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
+			<researchPrerequisite>GG_SimpleGrenades</researchPrerequisite>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
@@ -26,6 +27,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
+			<researchPrerequisite>GG_AdvancedGrenades</researchPrerequisite>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
@@ -36,7 +38,7 @@
 		<description>Ancient rudimentary grenades made by packing gunpowder into a cast-iron shell and plugging it with a powder-laden fuse. Their weight makes them difficult to throw long distances, but they still pack a punch.</description>
     <tickerType>Normal</tickerType>
 		<graphicData>
-			<texPath>Things/Grenades/Cast_Grenades</texPath>
+			<texPath>Things/Grenades/Cast_Grenade_Pile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Grenade</soundInteract>
@@ -87,11 +89,11 @@
 		<label>frag grenade</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/Cast_Grenade</texPath>
+			<texPath>Things/Projectile/Cast_Grenade1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<explosionRadius >2.9</explosionRadius >
+			<explosionRadius >2.4</explosionRadius >
 			<damageDef>GG_CastBomb</damageDef>
 			<speed>12</speed>
 			<explosionDelay>140</explosionDelay>
@@ -104,7 +106,7 @@
     <description>A canister containing shaved metals which ignite to produce a thermite reaction. It burns hot enough to melt steel, but has a relatively small radius.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
-      <texPath>Things/Grenades/Incendiary_Grenades</texPath>
+      <texPath>Things/Grenades/Incendiary_Grenades_Belt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Grenade</soundInteract>
@@ -162,8 +164,9 @@
 		<projectile>
 			<explosionRadius>2.2</explosionRadius>
 			<damageDef>GG_IncendiaryFlame</damageDef>
-      <!-- Use default damage from explosion def -->
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<explosionChanceToStartFire>0.98</explosionChanceToStartFire>
+			<explosionDelay>80</explosionDelay>
       <ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 	</ThingDef>
@@ -174,7 +177,7 @@
 		<defName>GG_Bullet_GrenadeLauncher</defName>
 		<label>launched frag grenade</label>
 		<graphicData>
-			<texPath>Things/Projectile/Launched_Grenade</texPath>
+			<texPath>Things/Projectile/InfernoCannonShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -313,6 +316,7 @@
       </li>
     </tools>
 	</ThingDef>
+	
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_IncendiaryLauncher</defName>
     <label>incendiary bolt</label>
@@ -324,11 +328,12 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <speed>40</speed>
-      <damageDef>Flame</damageDef>
+      <damageDef>GG_IncendiaryFlame</damageDef>
       <!-- Use default damage from explosion def -->
-      <explosionRadius>1.1</explosionRadius>
+      <explosionRadius>2.4</explosionRadius>
       <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<explosionChanceToStartFire>0.98</explosionChanceToStartFire>
       <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>

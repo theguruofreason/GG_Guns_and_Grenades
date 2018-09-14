@@ -55,7 +55,7 @@
 
   <ThingDef Name="GG_BaseMakeableGunSG" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>Gunsmithing</researchPrerequisite>
+			<researchPrerequisite>GG_SimpleGunsmithing</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -65,7 +65,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunBL" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>BreechLoading</researchPrerequisite>
+			<researchPrerequisite>GG_BreechLoading</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -75,7 +75,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunRA" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>RepeatingActions</researchPrerequisite>
+			<researchPrerequisite>GG_RepeatingActions</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -85,7 +85,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunR" ParentName="GG_RudimentaryGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>Rifling</researchPrerequisite>
+			<researchPrerequisite>GG_Rifling</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -95,7 +95,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunBO" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>BlowbackOperation</researchPrerequisite>
+			<researchPrerequisite>GG_BlowbackOperation</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -104,7 +104,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunHCR" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>HighCaliberRounds</researchPrerequisite>
+			<researchPrerequisite>GG_HighCaliberRounds</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -113,7 +113,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunO" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>Optics</researchPrerequisite>
+			<researchPrerequisite>GG_Optics</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -122,7 +122,7 @@
   
   <ThingDef Name="GG_BaseMakeableGunAF" ParentName="GG_ModernGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>AdvancedFirearms</researchPrerequisite>
+			<researchPrerequisite>GG_AdvancedFirearms</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>
@@ -131,25 +131,25 @@
   
   <ThingDef Name="GG_BaseMakeableGunMBW" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>MultiBarrelWeapons</researchPrerequisite>
+			<researchPrerequisite>GG_MultiBarrelWeapons</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
   <ThingDef Name="GG_BaseMakeableGunBFW" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>BeltFedWeapons</researchPrerequisite>
+			<researchPrerequisite>GG_BeltFedWeapons</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
   <ThingDef Name="GG_BaseMakeableGunCS" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<researchPrerequisite>GG_ChargedShot</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
   <ThingDef Name="GG_BaseMakeableGunFCW" ParentName="GG_SpacerGun" Abstract="True">
     <recipeMaker>
-			<researchPrerequisite>FiftyCalWeapons</researchPrerequisite>
+			<researchPrerequisite>GG_FiftyCalWeapons</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
   
@@ -163,7 +163,7 @@
         <li>TableMachining</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-	  <researchPrerequisite>GrenadeLaunchers</researchPrerequisite>
+	  <researchPrerequisite>GG_GrenadeLaunchers</researchPrerequisite>
     </recipeMaker>
     <weaponTags>
       <li>Gun</li>

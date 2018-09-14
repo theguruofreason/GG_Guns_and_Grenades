@@ -4,7 +4,11 @@
   <!-- remove superfluous research -->
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing" or defName="GasOperation" or defName="PrecisionRifling"]</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing" or defName="GasOperation" or defName="PrecisionRifling" or defName="BlowbackOperation" or defName="MultibarrelWeapons"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing" or defName="GasOperation" or defName="PrecisionRifling" or defName="BlowbackOperation" or defName="MultibarrelWeapons"]/prerequisites</xpath>
 	</Operation>
 	
 	<Operation Class="PatchOperationRemove">
@@ -17,7 +21,7 @@
 		<xpath>Defs/ResearchProjectDef[defName="Mortars"]/prerequisites</xpath>
 		<value>
 			<prerequisites>
-				<li>GrenadeLaunchers</li>
+				<li>GG_GrenadeLaunchers</li>
 			</prerequisites>
 		</value>
 	</Operation>
@@ -26,7 +30,7 @@
 		<xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/prerequisites</xpath>
 		<value>
 			<prerequisites>
-				<li>AdvancedFirearms</li>
+				<li>GG_AdvancedFirearms</li>
 			</prerequisites>
 		</value>
 	</Operation>
@@ -47,18 +51,45 @@
 			<prerequisites>
 				<li>HeavyTurrets</li>
 				<li>MultiAnalyzer</li>
-				<li>FiftyCalWeapons</li>
+				<li>GG_FiftyCalWeapons</li>
 			</prerequisites>
 		</value>
 	</Operation>
 	
-	<!-- alter vanilla minigun -->
+	<!-- alter vanilla grenades -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]</xpath>
+		<value>
+			<recipeMaker>
+				<researchPrerequisite>GG_SimpleGrenades</researchPrerequisite>
+			</recipeMaker>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]</xpath>
+		<value>
+			<recipeMaker>
+				<researchPrerequisite>GG_AdvancedGrenades</researchPrerequisite>
+			</recipeMaker>
+		</value>
+	</Operation>
+	
+	<!-- alter vanilla guns -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+      <researchPrerequisite>GG_SimpleGunsmithing</researchPrerequisite>
+		</value>
+	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Gun_Minigun"]/recipeMaker</xpath>
 		<value>
     <recipeMaker>
-      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+      <researchPrerequisite>GG_MultibarrelWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -66,6 +97,20 @@
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_ChargeRifle" or defName="Gun_ChargeLance"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+      <researchPrerequisite>GG_ChargedShot</researchPrerequisite>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_ChargeRifle"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+      <researchPrerequisite>GG_ChargedShot</researchPrerequisite>
 		</value>
 	</Operation>
 	
