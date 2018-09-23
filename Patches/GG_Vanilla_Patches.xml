@@ -4,15 +4,27 @@
   <!-- remove superfluous research -->
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing" or defName="GasOperation" or defName="PrecisionRifling" or defName="BlowbackOperation" or defName="MultibarrelWeapons"]</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
 	</Operation>
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing" or defName="GasOperation" or defName="PrecisionRifling" or defName="BlowbackOperation" or defName="MultibarrelWeapons"]/prerequisites</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
 	</Operation>
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
+		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]</xpath>
 	</Operation>
 	
 	<!-- alter vanilla research prereqs -->
@@ -56,6 +68,13 @@
 		</value>
 	</Operation>
 	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/techLevel</xpath>
+		<value>
+		  <techLevel>Spacer</techLevel>
+		</value>
+	</Operation>
+	
 	<!-- alter vanilla grenades -->
 	
 	<Operation Class="PatchOperationAdd">
@@ -74,6 +93,52 @@
 				<researchPrerequisite>GG_AdvancedGrenades</researchPrerequisite>
 			</recipeMaker>
 		</value>
+	</Operation>
+	
+	<!-- remove vanilla guns -->
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_Revolver"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_Autopistol"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_MachinePistol"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_HeavySMG"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_LMG"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gun_SniperRifle"]</xpath>
 	</Operation>
 	
 	<!-- alter vanilla guns -->
@@ -183,6 +248,245 @@
 				<!-- Use default damage from explosion def -->
 				<explosionDelay>120</explosionDelay>
 			</projectile>
+		</value>
+	</Operation>
+	
+	<!-- Setmaker replacements -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingSetMakerDef[defName="MapGen_AncientTempleContents"]/root/options</xpath>
+		<value>
+      <options>
+        <li>
+          <chance>0.8</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Luciferium</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>5</min>
+                <max>20</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>0.4</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>ComponentSpacer</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>1</min>
+                <max>4</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>0.4</chance>
+          <thingSetMaker Class="ThingSetMaker_StackCount">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>MedicineUltratech</li>
+                </thingDefs>
+              </filter>
+              <countRange>
+                <min>2</min>
+                <max>8</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>0.6</chance>
+          <thingSetMaker Class="ThingSetMaker_Count">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>Artifacts</li>
+                </categories>
+              </filter>
+              <countRange>
+                <min>1</min>
+                <max>2</max>
+              </countRange>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <chance>0.9</chance>
+          <thingSetMaker Class="ThingSetMaker_Count">
+            <fixedParams>
+              <qualityGenerator>Reward</qualityGenerator>
+              <filter>
+                <thingDefs>
+                  <li>Apparel_PowerArmor</li>
+                  <li>Apparel_PowerArmorHelmet</li>
+                  <li>Gun_ChargeRifle</li>
+                  <li>Gun_ChargeLance</li>
+                  <li>GG_Gun_AssaultRifle</li>
+                  <li>MechSerumNeurotrainer</li>
+                  <li>TechprofSubpersonaCore</li>
+                  <li>ArchotechEye</li>
+                  <li>ArchotechArm</li>
+                  <li>ArchotechLeg</li>
+                  <li>PowerClaw</li>
+                  <li>BionicEye</li>
+                  <li>BionicArm</li>
+                  <li>BionicLeg</li>
+                  <li>BionicSpine</li>
+                  <li>BionicHeart</li>
+                  <li>Joywire</li>
+                  <li>Painstopper</li>
+                  <li>Shell_AntigrainWarhead</li>
+                  <li>MechSerumHealer</li>
+                  <li>MechSerumResurrector</li>
+                  <li>FlatscreenTelevision</li>
+                  <li>MegascreenTelevision</li>
+                  <li>SculptureGrand</li>
+                </thingDefs>
+                <thingSetMakerTagsToAllow>
+                  <li>SingleUseWeapon</li>
+                </thingSetMakerTagsToAllow>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
+		<value>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+          <visible>false</visible>
+        </li>
+
+        <!-- Player pawns modifiers -->
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.5</chance>
+          <hediff>CryptosleepSickness</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>
+            <min>1</min>
+            <max>1</max>
+          </severityRange>
+        </li>
+        
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>GG_Gun_HeavyRifle</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>GG_Gun_Revolver</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Knife</thingDef>
+          <stuff>Plasteel</stuff>
+        </li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakPants</thingDef>
+        </li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakVest</thingDef>
+        </li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_AdvancedHelmet</thingDef>
+					<stuff>Plasteel</stuff>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>      
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>720</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>7</count>
+        </li>
+        
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        
+      </parts>
 		</value>
 	</Operation>
 	
