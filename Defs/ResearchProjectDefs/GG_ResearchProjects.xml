@@ -242,10 +242,11 @@
   <ResearchProjectDef ParentName="GGAdvancedResearch">
     <defName>GG_GrenadeLaunchers</defName>
     <label>grenade launchers</label>
-    <description>With human power only propelling an explosive device so far, engineers have devised pneumatic propulsion systems for delivery.</description>
+    <description>With human power only propelling an explosive device so far, engineers have devised powder-based propulsion systems for delivery.</description>
     <baseCost>1800</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
+      <li>Machining</li>
       <li>GG_AdvancedGrenades</li>
       <li>GG_HighCaliberRounds</li>
     </prerequisites>
