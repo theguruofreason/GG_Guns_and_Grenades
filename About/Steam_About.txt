@@ -1,0 +1,103 @@
+  [h1]Gasch's Gear - Guns and Grenades[/h1]
+  Author: Gasch
+  Target Version: 0.19.2
+
+  The aim of Gasch's Gear mods is to add small amounts of content and rebalancing to produce a smoother progression curve from tribal to spacer and make lesser-used portions of the game more meaningful.
+  
+[h1]Overview[/h1]
+[list]
+[*]More early-era firearms!
+[*]More distinct firearms across all ages!
+[*]Grenades are dangerous!
+[*]Firearm and Grenade research completely overhauled!
+[*]All ranged weapons are rebalanced!
+[/list]
+  
+  
+[h1]Deeper Analysis[/h1]
+[list]
+[*]Weapon Scaling and Individuality:
+  [list]
+  [*]Pistols and Revolvers:
+    [list]
+    [*]Accurate at touch and short ranges
+	[*]Average range
+    [*]Quick to fire and aim
+	[*]Relatively short ranged
+    [/list]
+  [*]Shotguns:
+	[list]
+	[*]Accurate at short to medium ranges
+	[*]Short range
+	[*]Heavy damage
+	[*]Very short ranged
+	[/list]
+  [*]Carbines:
+    [list]
+	[*]Accurate at short to medium ranges
+	[*]Average range
+	[*]Quick to fire and aim
+	[*]Ranged between rifles and handguns
+	[*]Light and Heavy variants
+	[/list]
+  [*]Rifles
+    [list]
+    [*]Accurate at medium and long ranges
+	[*]Long range
+	[*]Average fire-rate
+    [*]Light and Heavy variants
+	[/list]
+  [*]Sub Machine Guns
+    [list]
+    [*]Average accuracy at touch and short ranges
+	[*]Average range
+    [*]High rate of fire (3 shot bursts)
+    [*]Light and Heavy variants
+	[/list]
+  [*]Sniper Rifles
+    [list]
+	[*]Very accurate at medium and long ranges
+	[*]Heavy damage
+	[*]Very long range
+	[*]Slow rate-of-fire
+	[/list]
+  [*]Belt-fed Firearms
+    [list]
+	[*]Poor accuracy; most accurate at medium range
+	[*]Long range
+	[*]Very high rate-of-fire (5 round bursts)
+	[*]Light and Heavy variants
+	[/list]
+  [*]Grenades
+    [list]
+    [*]Explosion radii [b]DRAMATICALLY[/b] increased; about 2-3x
+	[*]Projectile speed increased (from 10 to 20)
+    [*]Grenade fuses are a bit longer
+    [*]New incendiary grenades! (upgrade from molotov cocktails)
+	[/list]
+  [*]Grenade Launchers
+    [list]
+	[*]Explosion radii [b]DRAMATICALLY[/b] increased; about 2-3x
+	[*]Difficult to research
+    [/list]
+  [*].50cal BMG
+    [list]
+	[*]Extremely accurate at medium and long ranges
+	[*]Extreme range
+	[*]Massive damage
+	[*]Slow fire-rate
+    [/list]
+  [/list]
+[/list]
+  
+[h1]Research[/h1]
+  [list]
+  [*]All vanilla research projects for guns are deleted!
+  [*]All references to vanilla guns are deleted!
+  [*]New research tab for all firearm and grenade related research
+  [*]Smooth progression through technology levels
+  [*]Some vanilla research prerequisites are changed
+  [/list]
+  
+[h1]Compatibility[/h1]
+  This is very likely to conflict with mods which alter vanilla firearms or firearm related research. It will not cause a crash if added to unmodded saves, but will cause many vanilla firearms and molotovs to disappear.
