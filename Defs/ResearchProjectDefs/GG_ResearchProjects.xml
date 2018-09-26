@@ -58,19 +58,6 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef ParentName="GGSimpleResearch">
-    <defName>GG_RepeatingActions</defName>
-    <label>repeating actions</label>
-    <description>The advent of cartridges, lever-action, bolt-action, and hammers allows production of firearms which fire more reliably and at a faster rate.</description>
-    <baseCost>700</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>GG_SimpleGunsmithing</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1</researchViewY>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef ParentName="GGSimpleResearch">
     <defName>GG_Rifling</defName>
     <label>rifling</label>
     <description>Rudimentary rifling techniques allow for greater precision at range.</description>
@@ -86,21 +73,6 @@
   <!-- T2 Firearm Research -->
   
   <ResearchProjectDef ParentName="GGAdvancedResearch">
-    <defName>GG_BlowbackOperation</defName>
-    <label>blowback operation</label>
-    <description>Gunsmiths have learned to harness a portion of kinetic energy once lost during firing and put it to use ejecting the casing and loading a fresh round into the chamber.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>Machining</li>
-      <li>GG_RepeatingActions</li>
-      <li>GG_BreechLoading</li>
-    </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>0</researchViewY>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef ParentName="GGAdvancedResearch">
     <defName>GG_HighCaliberRounds</defName>
     <label>high caliber rounds</label>
     <description>Stronger receivers and sturdy, large barrels allow high-grain bullets to be used. Where there was once a larger bullet, there is now a larger hole.</description>
@@ -108,58 +80,14 @@
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Machining</li>
-      <li>GG_RepeatingActions</li>
+      <li>Gunsmithing</li>
       <li>GG_BreechLoading</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
     <researchViewY>1</researchViewY>
   </ResearchProjectDef>
   
-  <ResearchProjectDef ParentName="GGAdvancedResearch">
-    <defName>GG_Optics</defName>
-    <label>optics</label>
-    <description>Learn how to manufacture magnified optics for rifles.</description>
-    <baseCost>600</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>Machining</li>
-      <li>GG_Rifling</li>
-    </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>2</researchViewY>
-  </ResearchProjectDef>
-  
-  <!-- T3 Firearm Research -->
-  
-  <ResearchProjectDef ParentName="GGAdvancedResearch">
-    <defName>GG_AdvancedFirearms</defName>
-    <label>advanced firearms</label>
-    <description>The full slew of modern firearms has arrived! It is terrifying.</description>
-    <baseCost>2400</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>GG_BlowbackOperation</li>
-      <li>GG_HighCaliberRounds</li>
-      <li>GG_Optics</li>
-    </prerequisites>
-    <researchViewX>3</researchViewX>
-    <researchViewY>1</researchViewY>
-  </ResearchProjectDef>
-  
   <!-- T4 Firearm Research -->
-  
-  <ResearchProjectDef ParentName="GGSpacerResearch">
-    <defName>GG_MultibarrelWeapons</defName>
-    <label>multi barrel weapons</label>
-    <description>To solve the problem of barrel distortion caused by extremely high rates of fire, engineers have decided it's simplest to add more barrels to the design.</description>
-    <baseCost>1600</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>GG_AdvancedFirearms</li>
-    </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>0</researchViewY>
-  </ResearchProjectDef>
   
   <ResearchProjectDef ParentName="GGSpacerResearch">
     <defName>GG_BeltFedWeapons</defName>
@@ -168,7 +96,7 @@
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>GG_AdvancedFirearms</li>
+      <li>GasOperation</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
     <researchViewY>1</researchViewY>
@@ -181,25 +109,9 @@
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>GG_AdvancedFirearms</li>
+      <li>GasOperation</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
-    <researchViewY>2</researchViewY>
-  </ResearchProjectDef>
-  
-  <!-- T5 Firearm Research -->
-  
-  <ResearchProjectDef ParentName="GGSpacerResearch">
-    <defName>GG_ChargedShot</defName>
-    <label>charged shot</label>
-    <description>Take it to the next level with pulse-charged projectile munitions.</description>
-    <baseCost>3000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>GG_FiftyCalWeapons</li>
-    </prerequisites>
-    <tab>GGResearchTab</tab>
-    <researchViewX>5</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
   

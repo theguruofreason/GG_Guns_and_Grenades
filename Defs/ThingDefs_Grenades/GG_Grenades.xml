@@ -89,7 +89,7 @@
     <label>frag grenade</label>
     <thingClass>Projectile_Explosive</thingClass>
     <graphicData>
-      <texPath>Things/Projectile/Cast_Grenade1</texPath>
+      <texPath>Things/Projectile/Cast_Grenade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
