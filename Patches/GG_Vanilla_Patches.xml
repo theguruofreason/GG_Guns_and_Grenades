@@ -361,47 +361,7 @@
 	<!-- remove vanilla guns -->
 	
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_Revolver"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_Autopistol"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_MachinePistol"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_HeavySMG"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_LMG"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]</xpath>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_SniperRifle"]</xpath>
 	</Operation>
 	
 	<!-- alter vanilla guns -->

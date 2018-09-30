@@ -311,9 +311,10 @@
   </ThingDef>
 	
 	<!-- Repeating Actions -->
-	
+
+	<!-- REPLACE REVOLVER -->
   <ThingDef ParentName="GG_BaseMakeableGunRA">
-    <defName>GG_Gun_Revolver</defName>
+    <defName>Gun_Revolver</defName>
     <label>revolver</label>
     <description>An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw.</description>
     <graphicData>
@@ -496,9 +497,10 @@
   </ThingDef>
 	
 	<!-- Rifling -->
-	
+
+	<!-- REPLACE BOLTACTIONRIFLE -->
   <ThingDef ParentName="GG_BaseMakeableGunR">
-    <defName>GG_Gun_HeavyRifle</defName>
+    <defName>Gun_BoltActionRifle</defName>
     <label>heavy rifle</label>
     <description>An old pattern bolt-action rifle. Powerful cartridges, long range, and good rate of fire. Quite clumsy up close.</description>
     <graphicData>
@@ -619,8 +621,9 @@
 	
 	<!-- Blowback Operation -->
 
+	<!-- REPLACE AUTOPISTOL -->
   <ThingDef ParentName="GG_BaseMakeableGunBO">
-    <defName>GG_Gun_Autopistol</defName>
+    <defName>Gun_Autopistol</defName>
     <label>autopistol</label>
     <description>An old pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
@@ -865,9 +868,10 @@
   </ThingDef>
 	
 	<!-- Optics -->
-	
+
+	<!-- REPLACE SNIPERRIFLE -->
   <ThingDef ParentName="GG_BaseMakeableGunO">
-    <defName>GG_Gun_SniperRifle</defName>
+    <defName>Gun_SniperRifle</defName>
     <label>sniper rifle</label>
     <description>An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy, and good power. Because it's so unwieldy, other weapons outclass it at close range.</description>
     <graphicData>
@@ -931,8 +935,9 @@
 	
 	<!-- Advanced Firearms -->
 
+	<!-- REPLACE PUMPSHOTGUN -->
   <ThingDef ParentName="GG_BaseMakeableGunAF">
-    <defName>GG_Gun_PumpShotgun</defName>
+    <defName>Gun_PumpShotgun</defName>
     <label>pump shotgun</label>
     <description>An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range.</description>
     <graphicData>
@@ -992,8 +997,9 @@
     </tools>
   </ThingDef>
 
+	<!-- REPLACE MACHINEPISTOL -->
   <ThingDef ParentName="GG_BaseMakeableGunAF">
-    <defName>GG_Gun_MachinePistol</defName>
+    <defName>Gun_MachinePistol</defName>
     <label>machine pistol</label>
     <description>A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness.</description>
     <graphicData>
@@ -1057,8 +1063,9 @@
     </tools>
   </ThingDef>
 
+	<!-- REPLACE HEAVYSMG -->
   <ThingDef ParentName="GG_BaseMakeableGunAF">
-    <defName>GG_Gun_HeavySMG</defName>
+    <defName>Gun_HeavySMG</defName>
     <label>heavy SMG</label>
     <description>A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well.</description>
     <graphicData>
@@ -1122,8 +1129,9 @@
     </tools>
   </ThingDef>
 
+	<!-- REPLACE ASSAULTRIFLE -->
   <ThingDef ParentName="GG_BaseMakeableGunAF">
-    <defName>GG_Gun_AssaultRifle</defName>
+    <defName>Gun_AssaultRifle</defName>
     <label>light assault rifle</label>
     <description>A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.</description>
     <graphicData>
@@ -1315,9 +1323,10 @@
   </ThingDef>
 	
   <!-- Belt Fed Weapons -->
-  
+
+	<!-- REPLACE LMG -->
   <ThingDef ParentName="GG_BaseMakeableGunBFW">
-    <defName>GG_Gun_LMG</defName>
+    <defName>Gun_LMG</defName>
     <label>LMG</label>
     <description>A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies.</description>
     <graphicData>
