@@ -773,6 +773,204 @@
          result="composite2"
          id="feComposite5190" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5211"
+       height="1.5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5213" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5215" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur5217" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset5219" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5221" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5238"
+       height="1.5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5240" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5242" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur5244" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset5246" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5248" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5256"
+       height="1.5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5258" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5260" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur5262" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset5264" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5266" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5285"
+       height="1.5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5287" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5289" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur5291" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset5293" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5295" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5313"
+       height="1.5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5315" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5317" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur5319" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset5321" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5323" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5340"
+       height="1.5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5342" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5344" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur5346" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset5348" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5350" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -781,9 +979,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="137.74676"
-     inkscape:cy="-72.058007"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="749.4293"
+     inkscape:cy="416.94248"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -811,13 +1009,13 @@
     <rect
        style="fill:#3d3f57;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4163"
-       width="644.28571"
-       height="1348.0331"
-       x="35.357143"
-       y="27.00506" />
+       width="1410.8872"
+       height="1261.1599"
+       x="-73.441666"
+       y="-132.00221" />
     <image
-       y="92.918678"
-       x="122.9525"
+       y="90.176071"
+       x="123.80546"
        id="image4144"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABF
 lGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -1177,7 +1375,7 @@ PAAPwAPwADwAD8AD8ADmePxjAOYIwPqgIfdFAAAAAElFTkSuQmCC
        xml:space="preserve"
        id="flowRoot4155"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4503)"
-       transform="matrix(0.42196121,0,0,0.42196121,60.702365,48.534284)"
+       transform="matrix(0.42196121,0,0,0.42196121,60.702365,45.662106)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><flowRegion
          id="flowRegion4157"><rect
@@ -1203,7 +1401,7 @@ PAAPwAPwADwAD8AD8ADmePxjAOYIwPqgIfdFAAAAAElFTkSuQmCC
        xml:space="preserve"
        id="flowRoot4173"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4587)"
-       transform="matrix(0.84312524,0,0,0.84312524,15.867566,35.677859)"
+       transform="matrix(0.84312524,0,0,0.84312524,15.867566,32.805681)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><flowRegion
          id="flowRegion4175"><rect
@@ -1213,9 +1411,9 @@ PAAPwAPwADwAD8AD8ADmePxjAOYIwPqgIfdFAAAAAElFTkSuQmCC
            x="41.07143"
            y="-5.8520827" /></flowRegion><flowPara
          id="flowPara4179"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:125%;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Simple Gunsmithing</flowPara></flowRoot>    <image
-       y="148.04015"
-       x="98.74839"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.65158463px;line-height:125%;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Simple Gunsmithing</flowPara></flowRoot>    <image
+       y="145.35632"
+       x="99.771378"
        id="image4197"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABF
 1WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -1577,7 +1775,7 @@ ArAALAALwAKwACwAC2B/1X8OAIVi5jIteBE7AAAAAElFTkSuQmCC
        style="font-style:normal;font-weight:normal;font-size:16.00833702px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4647)"
        id="flowRoot4200"
        xml:space="preserve"
-       transform="matrix(1.1835297,0,0,1.1835297,-19.545846,-23.166729)"
+       transform="matrix(1.1835297,0,0,1.1835297,-19.545846,-26.038907)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><flowRegion
          id="flowRegion4202"><rect
@@ -1592,7 +1790,7 @@ ArAALAALwAKwACwAC2B/1X8OAIVi5jIteBE7AAAAAElFTkSuQmCC
        xml:space="preserve"
        id="flowRoot4208"
        style="font-style:normal;font-weight:normal;font-size:18.94634247px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4659)"
-       transform="translate(9.6428567,-8.9285714)"
+       transform="translate(9.6428567,-11.800749)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><flowRegion
          id="flowRegion4210"><rect
@@ -1604,8 +1802,8 @@ ArAALAALwAKwACwAC2B/1X8OAIVi5jIteBE7AAAAAElFTkSuQmCC
            style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara4214"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Arquebus</flowPara></flowRoot>    <image
-       y="200.77933"
-       x="66.239815"
+       y="198.17337"
+       x="67.447472"
        id="image4224"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABF
 OWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -1974,7 +2172,7 @@ QmCC
        xml:space="preserve"
        id="flowRoot4679"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:Rockwell;-inkscape-font-specification:Rockwell;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4687)"
-       transform="matrix(0.94189824,0,0,0.94189824,6.0160882,13.047419)"
+       transform="matrix(0.94189824,0,0,0.94189824,6.0160882,10.175241)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><flowRegion
          id="flowRegion4681"><rect
@@ -1985,15 +2183,16 @@ QmCC
            y="206.64792"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:Rockwell;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara4685"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Breech Loading</flowPara></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.54214478px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Breech Loading</flowPara></flowRoot>    <g
        id="g4705"
        inkscape:export-xdpi="109.542"
-       inkscape:export-ydpi="109.542">
+       inkscape:export-ydpi="109.542"
+       transform="translate(0,-2.8721778)">
       <path
          inkscape:connector-curvature="0"
          id="path4699"
          d="m 57.5,62.719346 0,112.500004 14.642857,0"
-         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="path4701"
@@ -2009,7 +2208,7 @@ QmCC
        xml:space="preserve"
        id="flowRoot4710"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:Rockwell;-inkscape-font-specification:Rockwell;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4729)"
-       transform="translate(9.2857142,14.285714)"
+       transform="translate(9.2857142,11.413536)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><flowRegion
          id="flowRegion4712"><rect
@@ -2021,8 +2220,8 @@ QmCC
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:Rockwell;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara4716"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Breech Loaded Pistol</flowPara></flowRoot>    <image
-       y="325.15915"
-       x="93.388504"
+       y="322.55539"
+       x="94.600876"
        id="image4726"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABF
 1WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -2404,7 +2603,7 @@ Syj7rIZnAAAAAElFTkSuQmCC
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4772)"
        x="63.571426"
-       y="332.71936"
+       y="329.84717"
        id="text4757"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
@@ -2412,11 +2611,11 @@ Syj7rIZnAAAAAElFTkSuQmCC
          sodipodi:role="line"
          id="tspan4759"
          x="63.571426"
-         y="332.71936"
+         y="329.84717"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Breech Loaded Shotgun</tspan></text>
     <image
-       y="385.90338"
-       x="75.750603"
+       y="383.33728"
+       x="77.040787"
        id="image4769"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABF
 OWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -2779,7 +2978,7 @@ AUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAHAvZR/DwAkm1AKGWdXQAAAAABJRU5ErkJggg==
        y="397.86646"
        id="text4784"
        sodipodi:linespacing="125%"
-       transform="matrix(0.95276386,0,0,0.95276386,10.213455,18.02208)"
+       transform="matrix(0.95276386,0,0,0.95276386,10.213455,15.149902)"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
@@ -2788,8 +2987,8 @@ AUAAEAAEAAFAABAABAABQAAQAAQAAUAAEAAEAAHAvZR/DwAkm1AKGWdXQAAAAABJRU5ErkJggg==
          y="397.86646"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:21.11044693px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Breech Loader</tspan></text>
     <image
-       y="429.44324"
-       x="22.023954"
+       y="426.89856"
+       x="23.355871"
        id="image4796"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABG
 FmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -3156,7 +3355,7 @@ GgA4DBdqVoOtygAAAABJRU5ErkJggg==
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00420153px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 57.5,243.23002 0,147.70547"
+       d="m 57.5,240.35784 0,147.70547"
        id="path4819"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -3164,21 +3363,21 @@ GgA4DBdqVoOtygAAAABJRU5ErkJggg==
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 57.578695,326.5676 3.788072,0"
+       d="m 57.578695,323.69542 3.788072,0"
        id="path4821"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 57.5,273.28205 7.576145,0"
+       d="m 57.5,270.40987 7.576145,0"
        id="path4823"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 87.630733,390.45975 -30.304576,0"
+       d="m 87.630733,387.58757 -30.304576,0"
        id="path4825"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
@@ -3186,20 +3385,20 @@ GgA4DBdqVoOtygAAAABJRU5ErkJggg==
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4831)"
-       x="51.608887"
-       y="451.70483"
+       x="366.77649"
+       y="51.84269"
        id="text4827"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4829"
-         x="51.608887"
-         y="451.70483"
+         x="366.77649"
+         y="51.84269"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Repeating Actions</tspan></text>
     <image
-       y="508.38565"
-       x="-68.554619"
+       y="313.44849"
+       x="401.78549"
        id="image4851"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABE
 amlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -3551,34 +3750,34 @@ MAAGwAAYgAcofxsApVotcF3EPZMAAAAASUVORK5CYII=
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4858)"
-       x="74.633102"
-       y="496.28195"
+       x="389.80069"
+       y="96.419807"
        id="text4854"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4856"
-         x="74.633102"
-         y="496.28195"
+         x="389.80069"
+         y="96.419807"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Light Repeater</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4874)"
-       x="72.500008"
-       y="560.27637"
+       x="387.6676"
+       y="160.41423"
        id="text4870"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4872"
-         x="72.500008"
-         y="560.27637"
+         x="387.6676"
+         y="160.41423"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Heavy Repeater</tspan></text>
     <image
-       y="555.42255"
-       x="-109.09487"
+       y="370.08798"
+       x="365.11124"
        id="image4894"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABG
 FmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -3941,21 +4140,21 @@ AACVM2wxfbKdAAAAAElFTkSuQmCC
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.98186433px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 60.357143,461.3477 0,92.61838"
+       d="m 375.52474,61.48557 0,92.61838"
        id="path4908"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 71.428572,490.0977 -10.892858,0"
+       d="m 386.59617,90.23557 -10.89286,0"
        id="path4910"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 69.953064,553.47312 -9.596449,0"
+       d="m 385.12066,153.61099 -9.59645,0"
        id="path4912"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
@@ -3963,20 +4162,20 @@ AACVM2wxfbKdAAAAAElFTkSuQmCC
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4918)"
-       x="54.200439"
-       y="619.00677"
+       x="367.58279"
+       y="222.06261"
        id="text4914"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4916"
-         x="54.200439"
-         y="619.00677"
+         x="367.58279"
+         y="222.06261"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Blowback Operation</tspan></text>
     <image
-       y="647.92029"
-       x="-195.48029"
+       y="479.78119"
+       x="281.49182"
        id="image4938"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABG
 2WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -4362,27 +4561,27 @@ ECa+lkAU/4EAAAAASUVORK5CYII=
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4945)"
-       x="79.878197"
-       y="666.25806"
+       x="393.26053"
+       y="269.31387"
        id="text4941"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4943"
-         x="79.878197"
-         y="666.25806"
+         x="393.26053"
+         y="269.31387"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Light Carbine</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 62.857143,625.21935 0,35"
+       d="m 376.23951,226.27517 0,34.99999"
        id="path4957"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.01814997px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 76.897863,660.29675 -14.52926,0"
+       d="m 390.28023,261.35256 -14.52926,0"
        id="path4959"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
@@ -4390,34 +4589,34 @@ ECa+lkAU/4EAAAAASUVORK5CYII=
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4965)"
-       x="55.869141"
-       y="725.57782"
+       x="369.2515"
+       y="328.63367"
        id="text4961"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4963"
-         x="55.869141"
-         y="725.57782"
+         x="369.2515"
+         y="328.63367"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">High Caliber Rounds</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4981)"
-       x="81.317276"
-       y="768.00427"
+       x="394.69962"
+       y="371.06012"
        id="text4977"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan4979"
-         x="81.317276"
-         y="768.00427"
+         x="394.69962"
+         y="371.06012"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">.357 Magnum</tspan></text>
     <image
-       y="733.96039"
-       x="-239.20218"
+       y="557.25378"
+       x="234.66267"
        id="image5001"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABG
 FmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -4793,20 +4992,20 @@ NBZ9XKMAAAAASUVORK5CYII=
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5008)"
-       x="81.317284"
-       y="830.63373"
+       x="394.69962"
+       y="433.68958"
        id="text5004"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5006"
-         x="81.317284"
-         y="830.63373"
+         x="394.69962"
+         y="433.68958"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Heavy Carbine</tspan></text>
     <image
-       y="793.54974"
-       x="-266.93436"
+       y="616.1853"
+       x="206.68466"
        id="image5028"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABG
 2WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -5198,21 +5397,21 @@ TkSuQmCC
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 66.428572,732.71935 0,91.78571"
+       d="m 379.81094,333.77516 0,91.7857"
        id="path5031"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.01801109px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 79.92832,824.06773 -14.001861,0"
+       d="m 393.31068,425.12353 -14.00186,0"
        id="path5033"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 79.549513,761.81708 -13.258252,0"
+       d="m 392.93188,362.87288 -13.25825,0"
        id="path5035"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
@@ -5220,34 +5419,34 @@ TkSuQmCC
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5041)"
-       x="54.216309"
-       y="890.73779"
+       x="665.92706"
+       y="53.150066"
        id="text5037"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5039"
-         x="54.216309"
-         y="890.73779"
+         x="665.92706"
+         y="53.150066"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Advanced Firearms</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5057)"
-       x="78.791901"
-       y="935.68958"
+       x="690.50262"
+       y="98.101814"
        id="text5053"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5055"
-         x="78.791901"
-         y="935.68958"
+         x="690.50262"
+         y="98.101814"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Heavy Assault Rifle</tspan></text>
     <image
-       y="892.20502"
-       x="-326.36099"
+       y="530.37567"
+       x="645.659"
        id="image5077"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABG
 mGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -5633,20 +5832,20 @@ JAAJQAKQACQACUACkAAkAAlAApAAJAAJ4IuU/xwAyF11PIFlLEYAAAAASUVORK5CYII=
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5084)"
-       x="86.368042"
-       y="995.79358"
+       x="698.0788"
+       y="158.20583"
        id="text5080"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5082"
-         x="86.368042"
-         y="995.79358"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1;">Lapua Magnum</tspan></text>
+         x="698.0788"
+         y="158.20583"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Lapua Magnum</tspan></text>
     <image
-       y="927.69507"
-       x="-375.93417"
+       y="574.88336"
+       x="599.39508"
        id="image5104"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABH
 pGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -6025,21 +6224,21 @@ AAlAApAAJAAJQAKQACQACUAC+KDk3wMAqwIb5deJbToAAAAASUVORK5CYII=
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 62.142857,897.71935 0,92.85714"
+       d="m 673.85359,58.131585 0,92.857145"
        id="path5107"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 83.085047,990.01461 -20.960665,0"
+       d="m 694.79578,150.42685 -20.96066,0"
        id="path5109"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 76.696429,929.01399 -14.508929,0"
+       d="m 688.40716,89.426225 -14.50893,0"
        id="path5111"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
@@ -6047,20 +6246,20 @@ AAlAApAAJAAJQAKQACQACUAC+KDk3wMAqwIb5deJbToAAAAASUVORK5CYII=
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5117)"
-       x="52.895508"
-       y="1052.3622"
+       x="664.60626"
+       y="214.77443"
        id="text5113"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5115"
-         x="52.895508"
-         y="1052.3622"
+         x="664.60626"
+         y="214.77443"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1">Belt-Fed Weapons</tspan></text>
     <image
-       y="1019.2153"
-       x="-439.08142"
+       y="677.92877"
+       x="533.68683"
        id="image5137"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABH
 5WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -6452,27 +6651,27 @@ lQAAAABJRU5ErkJggg==
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5144)"
-       x="73.928566"
-       y="1103.4337"
+       x="685.63934"
+       y="265.84604"
        id="text5140"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5142"
-         x="73.928566"
-         y="1103.4337"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1;">Heavy Machine Gun</tspan></text>
+         x="685.63934"
+         y="265.84604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">Heavy Machine Gun</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00602746px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 61.493036,1058.7227 0,38.3388"
+       d="m 673.20377,219.13494 0,38.3388"
        id="path5156"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 71.215755,1096.5564 -9.722719,0"
+       d="m 682.92649,256.96864 -9.72272,0"
        id="path5158"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
@@ -6480,34 +6679,34 @@ lQAAAABJRU5ErkJggg==
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5164)"
-       x="45.979004"
-       y="1159.4385"
+       x="664.7608"
+       y="331.10461"
        id="text5160"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5162"
-         x="45.979004"
-         y="1159.4385"
+         x="664.7608"
+         y="331.10461"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">.50 cal Weapons</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5180)"
-       x="84.852814"
-       y="1199.8445"
+       x="703.63458"
+       y="371.51056"
        id="text5176"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542"><tspan
          sodipodi:role="line"
          id="tspan5178"
-         x="84.852814"
-         y="1199.8445"
+         x="703.63458"
+         y="371.51056"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1">.50 BMG</tspan></text>
     <image
-       y="1063.8739"
-       x="-554.72485"
+       y="721.07178"
+       x="426.27515"
        id="image5200"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABH
 GmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
@@ -6898,17 +7097,1310 @@ AFAA+OHkPwcA+V9dwN+QUx8AAAAASUVORK5CYII=
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 62.142857,1167.3622 0,25.3571"
+       d="m 680.92466,337.02825 0,25.3571"
        id="path5203"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.0120151px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 83.035715,1192.5408 -21.397934,0"
+       d="m 701.81752,362.20685 -21.39793,0"
        id="path5205"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="109.542"
        inkscape:export-ydpi="109.542" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5211)"
+       x="47.477169"
+       y="610.92554"
+       id="text5207"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5209"
+         x="47.477169"
+         y="610.92554"
+         style="-inkscape-font-specification:'Rockwell Bold';font-family:Rockwell;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25px;fill:#ffffff;fill-opacity:1">Simple Grenades</tspan></text>
+    <image
+       y="619.41284"
+       x="197.89095"
+       id="image5231"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABI
+0GlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
+TXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRh
+LyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIw
+LTA5OjUzOjAyICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMu
+b3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJk
+ZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFw
+LzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMv
+MS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bo
+b3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNv
+bS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5j
+b20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6c3RSZWY9
+Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiCiAgICAgICAg
+ICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAg
+ICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx4
+bXA6Q3JlYXRvclRvb2w+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpPC94bXA6Q3Jl
+YXRvclRvb2w+CiAgICAgICAgIDx4bXA6Q3JlYXRlRGF0ZT4yMDE4LTA5LTA5VDA5OjE3OjUxLTA3
+OjAwPC94bXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhtcDpNb2RpZnlEYXRlPjIwMTgtMDktMTBU
+MTc6MjY6MTUtMDc6MDA8L3htcDpNb2RpZnlEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0
+ZT4yMDE4LTA5LTEwVDE3OjI2OjE1LTA3OjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8
+ZGM6Zm9ybWF0PmltYWdlL3BuZzwvZGM6Zm9ybWF0PgogICAgICAgICA8cGhvdG9zaG9wOkNvbG9y
+TW9kZT4zPC9waG90b3Nob3A6Q29sb3JNb2RlPgogICAgICAgICA8cGhvdG9zaG9wOkRvY3VtZW50
+QW5jZXN0b3JzPgogICAgICAgICAgICA8cmRmOkJhZz4KICAgICAgICAgICAgICAgPHJkZjpsaT4y
+M0JENjI3QTEyOUNCQ0M1RDEzMkFGQzlGODY4MUUxNTwvcmRmOmxpPgogICAgICAgICAgICAgICA8
+cmRmOmxpPjMwMzdBRTU3QzI5QTY0OUY4NDVERjgwREQ1OENENDU0PC9yZGY6bGk+CiAgICAgICAg
+ICAgICAgIDxyZGY6bGk+MzUwNDMzNkIwNjk0QUI0RTZBNjZFMzVENzY4M0ZCRDI8L3JkZjpsaT4K
+ICAgICAgICAgICAgICAgPHJkZjpsaT4zQkNGMTFBNzI4MDAwQzYxOUNGQzEwNzk1MDg0NDRCMzwv
+cmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPjU2OERGQkZCRTM2NUM2MjM4MUY0M0MxQThG
+QzI1MEYyPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+NzYzNEY3REE4OEEzMzFBQjVG
+NkY3NTFBQzkzMEZCNUQ8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT44NDk2RTlBNERD
+NkRFQTQyRDcyNkI0QjI3M0MxQTM4ODwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPjkw
+NDQ0NzBGOTNGMDY1NDk4QUIyRTQzNjE3NzVDMzlBPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxy
+ZGY6bGk+QTFGMDc0MEE4MDRFNEU4QzczRjVBN0M5RTkzRTg5OEE8L3JkZjpsaT4KICAgICAgICAg
+ICAgICAgPHJkZjpsaT5BQzMwNjI4MTQxMUVCN0E1OUNCQUJFQUUxNzlCOTRCRjwvcmRmOmxpPgog
+ICAgICAgICAgICAgICA8cmRmOmxpPkQ2ODM3MjM0MjAyODcyQUNBNjhCNDM5RTgyQzU1QUZGPC9y
+ZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+RUE1NEU4RDQyQUQzNDlGNDY5Njg4MTdDMUVF
+MEU4QUY8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT5FQUM4RUVGNDRFREI2N0FBRTM0
+N0Y2MkY3RkI1QjVCNjwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPmFkb2JlOmRvY2lk
+OnBob3Rvc2hvcDowZThiYzkzYy1iNDRlLTExZTgtYmY4Zi1lODdkMzk0NzE2MGM8L3JkZjpsaT4K
+ICAgICAgICAgICAgICAgPHJkZjpsaT5hZG9iZTpkb2NpZDpwaG90b3Nob3A6NzFiM2QwNjYtNDk2
+Yy0xMTdhLTkwNTgtOTA2YWMwNTRmODM2PC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+
+eG1wLmRpZDo5MDBmODU2Ni1mMDhhLWJjNDAtOTJhZC0yZTY0ZWVjYWM2ZTQ8L3JkZjpsaT4KICAg
+ICAgICAgICAgICAgPHJkZjpsaT54bXAuZGlkOkQ1OUI5MUJCMkQ2MTExRTQ5NjMxOTdEQUUyNUVG
+Mjg3PC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOkJhZz4KICAgICAgICAgPC9waG90b3Nob3A6
+RG9jdW1lbnRBbmNlc3RvcnM+CiAgICAgICAgIDx4bXBNTTpJbnN0YW5jZUlEPnhtcC5paWQ6NDE1
+ZWUxZWUtYmQ1NC1jNTQyLWJhODctNzRjNTczMzllYjhiPC94bXBNTTpJbnN0YW5jZUlEPgogICAg
+ICAgICA8eG1wTU06RG9jdW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6ZTM2NjlkYzYtYjU1
+OC0xMWU4LTk4MDUtYzAxOTllOWFkMjhjPC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1w
+TU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6OTAwZjg1NjYtZjA4YS1iYzQwLTkyYWQtMmU2
+NGVlY2FjNmU0PC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDx4bXBNTTpIaXN0
+b3J5PgogICAgICAgICAgICA8cmRmOlNlcT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFy
+c2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+Y3JlYXRl
+ZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAu
+aWlkOjkwMGY4NTY2LWYwOGEtYmM0MC05MmFkLTJlNjRlZWNhYzZlNDwvc3RFdnQ6aW5zdGFuY2VJ
+RD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxOC0wOS0wOVQwOToxNzo1MS0wNzow
+MDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRv
+YmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAg
+ICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBl
+PSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+Y29udmVydGVkPC9z
+dEV2dDphY3Rpb24+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpwYXJhbWV0ZXJzPmZyb20gaW1h
+Z2UvcG5nIHRvIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3A8L3N0RXZ0OnBhcmFtZXRl
+cnM+CiAgICAgICAgICAgICAgIDwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpw
+YXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmFjdGlvbj5zYXZl
+ZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAu
+aWlkOmExYWQyZDc5LWQ0YWItM2Q0NC1hMjMwLTA3MjhkNWM0ZjkwNjwvc3RFdnQ6aW5zdGFuY2VJ
+RD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxOC0wOS0wOVQwOTozMzoxNy0wNzow
+MDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRv
+YmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAg
+ICAgICAgICAgICAgICA8c3RFdnQ6Y2hhbmdlZD4vPC9zdEV2dDpjaGFuZ2VkPgogICAgICAgICAg
+ICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNv
+dXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlv
+bj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDo0YTQyMGE1My0z
+Njk0LTAyNDgtYmU3Yi1mOWY1NDdmOWI3NmI8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAg
+ICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMDktMTBUMTc6MjU6NTUtMDc6MDA8L3N0RXZ0OndoZW4+
+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBD
+QyAyMDE0IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgICAg
+PHN0RXZ0OmNoYW5nZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgPC9yZGY6bGk+
+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAg
+ICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNvbnZlcnRlZDwvc3RFdnQ6YWN0aW9uPgogICAgICAg
+ICAgICAgICAgICA8c3RFdnQ6cGFyYW1ldGVycz5mcm9tIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5w
+aG90b3Nob3AgdG8gaW1hZ2UvcG5nPC9zdEV2dDpwYXJhbWV0ZXJzPgogICAgICAgICAgICAgICA8
+L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+
+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+ZGVyaXZlZDwvc3RFdnQ6YWN0aW9uPgog
+ICAgICAgICAgICAgICAgICA8c3RFdnQ6cGFyYW1ldGVycz5jb252ZXJ0ZWQgZnJvbSBhcHBsaWNh
+dGlvbi92bmQuYWRvYmUucGhvdG9zaG9wIHRvIGltYWdlL3BuZzwvc3RFdnQ6cGFyYW1ldGVycz4K
+ICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNl
+VHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPnNhdmVkPC9z
+dEV2dDphY3Rpb24+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDppbnN0YW5jZUlEPnhtcC5paWQ6
+NmY0ZWI2MGQtMmQwYy1kOTQ2LTk4MDYtMzI4OTM5MWU3MWQxPC9zdEV2dDppbnN0YW5jZUlEPgog
+ICAgICAgICAgICAgICAgICA8c3RFdnQ6d2hlbj4yMDE4LTA5LTEwVDE3OjI1OjU1LTA3OjAwPC9z
+dEV2dDp3aGVuPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6c29mdHdhcmVBZ2VudD5BZG9iZSBQ
+aG90b3Nob3AgQ0MgMjAxNCAoV2luZG93cyk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAg
+ICAgICAgICAgIDxzdEV2dDpjaGFuZ2VkPi88L3N0RXZ0OmNoYW5nZWQ+CiAgICAgICAgICAgICAg
+IDwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNl
+Ij4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmFjdGlvbj5zYXZlZDwvc3RFdnQ6YWN0aW9uPgog
+ICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjQxNWVlMWVlLWJkNTQt
+YzU0Mi1iYTg3LTc0YzU3MzM5ZWI4Yjwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAgICAgICAg
+ICAgPHN0RXZ0OndoZW4+MjAxOC0wOS0xMFQxNzoyNjoxNS0wNzowMDwvc3RFdnQ6d2hlbj4KICAg
+ICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIw
+MTQgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICAgICA8c3RF
+dnQ6Y2hhbmdlZD4vPC9zdEV2dDpjaGFuZ2VkPgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAg
+ICAgICAgICAgPC9yZGY6U2VxPgogICAgICAgICA8L3htcE1NOkhpc3Rvcnk+CiAgICAgICAgIDx4
+bXBNTTpEZXJpdmVkRnJvbSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgIDxz
+dFJlZjppbnN0YW5jZUlEPnhtcC5paWQ6NGE0MjBhNTMtMzY5NC0wMjQ4LWJlN2ItZjlmNTQ3Zjli
+NzZiPC9zdFJlZjppbnN0YW5jZUlEPgogICAgICAgICAgICA8c3RSZWY6ZG9jdW1lbnRJRD5hZG9i
+ZTpkb2NpZDpwaG90b3Nob3A6MGU4YmM5M2MtYjQ0ZS0xMWU4LWJmOGYtZTg3ZDM5NDcxNjBjPC9z
+dFJlZjpkb2N1bWVudElEPgogICAgICAgICAgICA8c3RSZWY6b3JpZ2luYWxEb2N1bWVudElEPnht
+cC5kaWQ6OTAwZjg1NjYtZjA4YS1iYzQwLTkyYWQtMmU2NGVlY2FjNmU0PC9zdFJlZjpvcmlnaW5h
+bERvY3VtZW50SUQ+CiAgICAgICAgIDwveG1wTU06RGVyaXZlZEZyb20+CiAgICAgICAgIDx0aWZm
+Ok9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0
+aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29s
+dXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOllSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpSZXNv
+bHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8ZXhpZjpDb2xvclNw
+YWNlPjY1NTM1PC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lv
+bj42NDwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lv
+bj42NDwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8
+L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5k
+PSJ3Ij8+QGWjtQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAY
+FElEQVR42uybeZCdV3nmf+d8y72399vqVVJ3a0eytdjywtgmXmQ7rrAEJ+CEsGSSIjgTIA4hZKlM
+MiSQMFSoqTBAhpmpmiknUzOhSCBkqvAQA4ltbJcdLIQtWZZa7VZ3q/e9773fdtb547Y8AREvKZeZ
+KnSqvj/63urvu+c57/I87/t+wnvPj/KS/IivywBcBuAyAJcBuAzAZQB+hFf4T/+49957AQiCgJMn
+TzIxMcHIyAhZlpHnOd3d3WRZRhzHtLW10dHRwdmzZ9myZQvOOXbv3k0YhiRJgtaaZ599llKpRBzH
+5HlOFEWUSiVmZmbYt28fq6urDAwMUK/Xr02S5IZKpaLK5XIxNjZ2XAhxsre3lyuuuIIoil7xxoIg
+YG5ujvn5eWq1GtPT0+zZs4ejR49irQXg/vvv/14AXsslhCAMQ/I87xsdHf2thcWl26UQLggCEwTB
+U11dnX8WBMHXXlMLeC03770vLS0tfeDpp5/5QFHku/btGaGlpYxWinPj02+en5+/s1qt/kIQBF8Q
+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
+"
+       preserveAspectRatio="none"
+       height="80"
+       width="80" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5238)"
+       x="74.246208"
+       y="665.97882"
+       id="text5234"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5236"
+         x="74.246208"
+         y="665.97882"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1;">Cast Grenades</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.928572,617.3622 0,42.5 17.5,0"
+       id="path5250"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5256)"
+       x="335.71429"
+       y="612.08679"
+       id="text5252"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5254"
+         x="335.71429"
+         y="612.08679"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';fill:#ffffff;fill-opacity:1">Advanced Grenades</tspan></text>
+    <image
+       y="610.34186"
+       x="525.65295"
+       id="image5276"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAA/
+G2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
+TXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRh
+LyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIw
+LTA5OjUzOjAyICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMu
+b3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJk
+ZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFw
+LzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMv
+MS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bo
+b3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNv
+bS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5j
+b20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0i
+aHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0
+dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5B
+ZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoV2luZG93cyk8L3htcDpDcmVhdG9yVG9vbD4KICAgICAg
+ICAgPHhtcDpDcmVhdGVEYXRlPjIwMTgtMDktMTBUMTY6MzI6NDMtMDc6MDA8L3htcDpDcmVhdGVE
+YXRlPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxOC0wOS0xMFQxNjo1MjozMi0wNzowMDwv
+eG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6TWV0YWRhdGFEYXRlPjIwMTgtMDktMTBUMTY6
+NTI6MzItMDc6MDA8L3htcDpNZXRhZGF0YURhdGU+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uv
+cG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDxwaG90b3Nob3A6Q29sb3JNb2RlPjM8L3Bob3Rvc2hv
+cDpDb2xvck1vZGU+CiAgICAgICAgIDxwaG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+CiAgICAg
+ICAgICAgIDxyZGY6QmFnPgogICAgICAgICAgICAgICA8cmRmOmxpPjIzQkQ2MjdBMTI5Q0JDQzVE
+MTMyQUZDOUY4NjgxRTE1PC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+MzAzN0FFNTdD
+MjlBNjQ5Rjg0NURGODBERDU4Q0Q0NTQ8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT4z
+NTA0MzM2QjA2OTRBQjRFNkE2NkUzNUQ3NjgzRkJEMjwvcmRmOmxpPgogICAgICAgICAgICAgICA8
+cmRmOmxpPjNCQ0YxMUE3MjgwMDBDNjE5Q0ZDMTA3OTUwODQ0NEIzPC9yZGY6bGk+CiAgICAgICAg
+ICAgICAgIDxyZGY6bGk+NTY4REZCRkJFMzY1QzYyMzgxRjQzQzFBOEZDMjUwRjI8L3JkZjpsaT4K
+ICAgICAgICAgICAgICAgPHJkZjpsaT43NjM0RjdEQTg4QTMzMUFCNUY2Rjc1MUFDOTMwRkI1RDwv
+cmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPjg0OTZFOUE0REM2REVBNDJENzI2QjRCMjcz
+QzFBMzg4PC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+OTA0NDQ3MEY5M0YwNjU0OThB
+QjJFNDM2MTc3NUMzOUE8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT5BMUYwNzQwQTgw
+NEU0RThDNzNGNUE3QzlFOTNFODk4QTwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPkQ2
+ODM3MjM0MjAyODcyQUNBNjhCNDM5RTgyQzU1QUZGPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxy
+ZGY6bGk+RUE1NEU4RDQyQUQzNDlGNDY5Njg4MTdDMUVFMEU4QUY8L3JkZjpsaT4KICAgICAgICAg
+ICAgICAgPHJkZjpsaT5FQUM4RUVGNDRFREI2N0FBRTM0N0Y2MkY3RkI1QjVCNjwvcmRmOmxpPgog
+ICAgICAgICAgICAgICA8cmRmOmxpPmFkb2JlOmRvY2lkOnBob3Rvc2hvcDowZThiYzkzYy1iNDRl
+LTExZTgtYmY4Zi1lODdkMzk0NzE2MGM8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT5h
+ZG9iZTpkb2NpZDpwaG90b3Nob3A6MjhiYTJmOGYtYjU1NC0xMWU4LTk4MDUtYzAxOTllOWFkMjhj
+PC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjcx
+YjNkMDY2LTQ5NmMtMTE3YS05MDU4LTkwNmFjMDU0ZjgzNjwvcmRmOmxpPgogICAgICAgICAgICAg
+ICA8cmRmOmxpPnhtcC5kaWQ6OTAwZjg1NjYtZjA4YS1iYzQwLTkyYWQtMmU2NGVlY2FjNmU0PC9y
+ZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+eG1wLmRpZDpENTlCOTFCQjJENjExMUU0OTYz
+MTk3REFFMjVFRjI4NzwvcmRmOmxpPgogICAgICAgICAgICA8L3JkZjpCYWc+CiAgICAgICAgIDwv
+cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54
+bXAuaWlkOjM5NTk4YjY3LTVkOTMtY2Y0OS1iYjk5LWViMmVhZjFjNDIxYTwveG1wTU06SW5zdGFu
+Y2VJRD4KICAgICAgICAgPHhtcE1NOkRvY3VtZW50SUQ+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjdh
+ZWZkYThiLWI1NTQtMTFlOC05ODA1LWMwMTk5ZTlhZDI4YzwveG1wTU06RG9jdW1lbnRJRD4KICAg
+ICAgICAgPHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD54bXAuZGlkOjhkMmIwNzc4LTgxYTctZGE0
+OS04NjRlLTQ1Y2MzNTZiMjU4MzwveG1wTU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8
+eG1wTU06SGlzdG9yeT4KICAgICAgICAgICAgPHJkZjpTZXE+CiAgICAgICAgICAgICAgIDxyZGY6
+bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0
+aW9uPmNyZWF0ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3Rh
+bmNlSUQ+eG1wLmlpZDo4ZDJiMDc3OC04MWE3LWRhNDktODY0ZS00NWNjMzU2YjI1ODM8L3N0RXZ0
+Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMDktMTBUMTY6
+MzI6NDMtMDc6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2Fy
+ZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVB
+Z2VudD4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRm
+OnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPnNh
+dmVkPC9zdEV2dDphY3Rpb24+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDppbnN0YW5jZUlEPnht
+cC5paWQ6Mzk1OThiNjctNWQ5My1jZjQ5LWJiOTktZWIyZWFmMWM0MjFhPC9zdEV2dDppbnN0YW5j
+ZUlEPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6d2hlbj4yMDE4LTA5LTEwVDE2OjUyOjMyLTA3
+OjAwPC9zdEV2dDp3aGVuPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6c29mdHdhcmVBZ2VudD5B
+ZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoV2luZG93cyk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAg
+ICAgICAgICAgICAgICAgIDxzdEV2dDpjaGFuZ2VkPi88L3N0RXZ0OmNoYW5nZWQ+CiAgICAgICAg
+ICAgICAgIDwvcmRmOmxpPgogICAgICAgICAgICA8L3JkZjpTZXE+CiAgICAgICAgIDwveG1wTU06
+SGlzdG9yeT4KICAgICAgICAgPHRpZmY6T3JpZW50YXRpb24+MTwvdGlmZjpPcmllbnRhdGlvbj4K
+ICAgICAgICAgPHRpZmY6WFJlc29sdXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOlhSZXNvbHV0aW9u
+PgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj43MjAwMDAvMTAwMDA8L3RpZmY6WVJlc29sdXRp
+b24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+
+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+NjU1MzU8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAg
+ICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjY0PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAg
+ICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjY0PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAg
+PC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz5TeZ4/AAAAIGNIUk0AAHolAACAgwAA+f8AAIDp
+AAB1MAAA6mAAADqYAAAXb5JfxUYAABQiSURBVHja7JtpcF3Xfdh/Z7n3vgUPDwCxEiAA7uAiUSS1
+eSzZpSRbYtI4tbO5ncbjOHXH00k7rTPNTNtJm6bpdKZJW7edzmgm+eAmnYxj2Y4tL4ldRottWaZI
+kyLFnSCxAw/AAx7e/u5yzukHgBw7llyKlG0m0pk5H+67791z7u/893OecM7xdm6St3l7B8A7AN4B
+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
+AAAASUVORK5CYII=
+"
+       preserveAspectRatio="none"
+       height="80"
+       width="80" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5285);"
+       x="358.21429"
+       y="657.00507"
+       id="text5279"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5281"
+         x="358.21429"
+         y="657.00507"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1;">Incendiary Grenades</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 343.92857,620.57649 0,30 11.96429,0"
+       id="path5283"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:125%;font-family:Rockwell;-inkscape-font-specification:'Rockwell Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5313)"
+       x="653.56873"
+       y="610.92554"
+       id="text5309"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5311"
+         x="653.56873"
+         y="610.92554">Grenade Launchers</tspan></text>
+    <image
+       y="960.01508"
+       x="387.617"
+       id="image5333"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAABI
+j2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0w
+TXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRh
+LyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIw
+LTA5OjUzOjAyICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMu
+b3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJk
+ZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFw
+LzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMv
+MS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bo
+b3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNv
+bS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5j
+b20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6c3RSZWY9
+Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiCiAgICAgICAg
+ICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAg
+ICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx4
+bXA6Q3JlYXRvclRvb2w+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpPC94bXA6Q3Jl
+YXRvclRvb2w+CiAgICAgICAgIDx4bXA6Q3JlYXRlRGF0ZT4yMDE4LTA5LTA5VDA5OjE3OjUxLTA3
+OjAwPC94bXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhtcDpNb2RpZnlEYXRlPjIwMTgtMDktMTBU
+MTY6NDM6NTgtMDc6MDA8L3htcDpNb2RpZnlEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0
+ZT4yMDE4LTA5LTEwVDE2OjQzOjU4LTA3OjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8
+ZGM6Zm9ybWF0PmltYWdlL3BuZzwvZGM6Zm9ybWF0PgogICAgICAgICA8cGhvdG9zaG9wOkNvbG9y
+TW9kZT4zPC9waG90b3Nob3A6Q29sb3JNb2RlPgogICAgICAgICA8cGhvdG9zaG9wOkRvY3VtZW50
+QW5jZXN0b3JzPgogICAgICAgICAgICA8cmRmOkJhZz4KICAgICAgICAgICAgICAgPHJkZjpsaT4y
+M0JENjI3QTEyOUNCQ0M1RDEzMkFGQzlGODY4MUUxNTwvcmRmOmxpPgogICAgICAgICAgICAgICA8
+cmRmOmxpPjMwMzdBRTU3QzI5QTY0OUY4NDVERjgwREQ1OENENDU0PC9yZGY6bGk+CiAgICAgICAg
+ICAgICAgIDxyZGY6bGk+MzUwNDMzNkIwNjk0QUI0RTZBNjZFMzVENzY4M0ZCRDI8L3JkZjpsaT4K
+ICAgICAgICAgICAgICAgPHJkZjpsaT4zQkNGMTFBNzI4MDAwQzYxOUNGQzEwNzk1MDg0NDRCMzwv
+cmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPjU2OERGQkZCRTM2NUM2MjM4MUY0M0MxQThG
+QzI1MEYyPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+NzYzNEY3REE4OEEzMzFBQjVG
+NkY3NTFBQzkzMEZCNUQ8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT44NDk2RTlBNERD
+NkRFQTQyRDcyNkI0QjI3M0MxQTM4ODwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPjkw
+NDQ0NzBGOTNGMDY1NDk4QUIyRTQzNjE3NzVDMzlBPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxy
+ZGY6bGk+QTFGMDc0MEE4MDRFNEU4QzczRjVBN0M5RTkzRTg5OEE8L3JkZjpsaT4KICAgICAgICAg
+ICAgICAgPHJkZjpsaT5ENjgzNzIzNDIwMjg3MkFDQTY4QjQzOUU4MkM1NUFGRjwvcmRmOmxpPgog
+ICAgICAgICAgICAgICA8cmRmOmxpPkVBNTRFOEQ0MkFEMzQ5RjQ2OTY4ODE3QzFFRTBFOEFGPC9y
+ZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+RUFDOEVFRjQ0RURCNjdBQUUzNDdGNjJGN0ZC
+NUI1QjY8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT5hZG9iZTpkb2NpZDpwaG90b3No
+b3A6MGU4YmM5M2MtYjQ0ZS0xMWU4LWJmOGYtZTg3ZDM5NDcxNjBjPC9yZGY6bGk+CiAgICAgICAg
+ICAgICAgIDxyZGY6bGk+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjcxYjNkMDY2LTQ5NmMtMTE3YS05
+MDU4LTkwNmFjMDU0ZjgzNjwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPnhtcC5kaWQ6
+OTAwZjg1NjYtZjA4YS1iYzQwLTkyYWQtMmU2NGVlY2FjNmU0PC9yZGY6bGk+CiAgICAgICAgICAg
+ICAgIDxyZGY6bGk+eG1wLmRpZDpENTlCOTFCQjJENjExMUU0OTYzMTk3REFFMjVFRjI4NzwvcmRm
+OmxpPgogICAgICAgICAgICA8L3JkZjpCYWc+CiAgICAgICAgIDwvcGhvdG9zaG9wOkRvY3VtZW50
+QW5jZXN0b3JzPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54bXAuaWlkOjUxMzUwM2IxLTY1
+YTEtMTE0Ni1hYWViLWJkZDMxMTYwYWYxODwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHht
+cE1NOkRvY3VtZW50SUQ+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjJjMDk5NDcxLWI1NTMtMTFlOC05
+ODA1LWMwMTk5ZTlhZDI4YzwveG1wTU06RG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOk9yaWdp
+bmFsRG9jdW1lbnRJRD54bXAuZGlkOjkwMGY4NTY2LWYwOGEtYmM0MC05MmFkLTJlNjRlZWNhYzZl
+NDwveG1wTU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06SGlzdG9yeT4KICAg
+ICAgICAgICAgPHJkZjpTZXE+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0i
+UmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNyZWF0ZWQ8L3N0RXZ0
+OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDo5MDBm
+ODU2Ni1mMDhhLWJjNDAtOTJhZC0yZTY0ZWVjYWM2ZTQ8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAg
+ICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMDktMDlUMDk6MTc6NTEtMDc6MDA8L3N0RXZ0
+OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rv
+c2hvcCBDQyAyMDE0IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAg
+ICAgPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3Vy
+Y2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNvbnZlcnRlZDwvc3RFdnQ6YWN0
+aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6cGFyYW1ldGVycz5mcm9tIGltYWdlL3BuZyB0
+byBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9wPC9zdEV2dDpwYXJhbWV0ZXJzPgogICAg
+ICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBl
+PSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0
+OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDphMWFk
+MmQ3OS1kNGFiLTNkNDQtYTIzMC0wNzI4ZDVjNGY5MDY8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAg
+ICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMDktMDlUMDk6MzM6MTctMDc6MDA8L3N0RXZ0
+OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rv
+c2hvcCBDQyAyMDE0IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAg
+ICAgICAgPHN0RXZ0OmNoYW5nZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgPC9y
+ZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgog
+ICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPnNhdmVkPC9zdEV2dDphY3Rpb24+CiAgICAg
+ICAgICAgICAgICAgIDxzdEV2dDppbnN0YW5jZUlEPnhtcC5paWQ6OThmOTA5MjMtNzRjMy0yYzQ4
+LTlkN2YtOTNmZjJlMDY2OWM1PC9zdEV2dDppbnN0YW5jZUlEPgogICAgICAgICAgICAgICAgICA8
+c3RFdnQ6d2hlbj4yMDE4LTA5LTEwVDE2OjQyOjQ2LTA3OjAwPC9zdEV2dDp3aGVuPgogICAgICAg
+ICAgICAgICAgICA8c3RFdnQ6c29mdHdhcmVBZ2VudD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAo
+V2luZG93cyk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpj
+aGFuZ2VkPi88L3N0RXZ0OmNoYW5nZWQ+CiAgICAgICAgICAgICAgIDwvcmRmOmxpPgogICAgICAg
+ICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAg
+ICAgPHN0RXZ0OmFjdGlvbj5jb252ZXJ0ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAg
+ICAgPHN0RXZ0OnBhcmFtZXRlcnM+ZnJvbSBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9w
+IHRvIGltYWdlL3BuZzwvc3RFdnQ6cGFyYW1ldGVycz4KICAgICAgICAgICAgICAgPC9yZGY6bGk+
+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAg
+ICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmRlcml2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAg
+ICAgICAgICAgPHN0RXZ0OnBhcmFtZXRlcnM+Y29udmVydGVkIGZyb20gYXBwbGljYXRpb24vdm5k
+LmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmc8L3N0RXZ0OnBhcmFtZXRlcnM+CiAgICAgICAg
+ICAgICAgIDwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJl
+c291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmFjdGlvbj5zYXZlZDwvc3RFdnQ6YWN0
+aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjY5MmRiNjU5
+LWZmY2UtNTE0OC1iNTNjLWIwNmIwNDQwZjhkMDwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAg
+ICAgICAgICAgPHN0RXZ0OndoZW4+MjAxOC0wOS0xMFQxNjo0Mjo0Ni0wNzowMDwvc3RFdnQ6d2hl
+bj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9w
+IENDIDIwMTQgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICAg
+ICA8c3RFdnQ6Y2hhbmdlZD4vPC9zdEV2dDpjaGFuZ2VkPgogICAgICAgICAgICAgICA8L3JkZjps
+aT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAg
+ICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAg
+ICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDo1MTM1MDNiMS02NWExLTExNDYtYWFl
+Yi1iZGQzMTE2MGFmMTg8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2
+dDp3aGVuPjIwMTgtMDktMTBUMTY6NDM6NTgtMDc6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAg
+ICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChXaW5k
+b3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmNoYW5n
+ZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAg
+IDwvcmRmOlNlcT4KICAgICAgICAgPC94bXBNTTpIaXN0b3J5PgogICAgICAgICA8eG1wTU06RGVy
+aXZlZEZyb20gcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICA8c3RSZWY6aW5z
+dGFuY2VJRD54bXAuaWlkOjk4ZjkwOTIzLTc0YzMtMmM0OC05ZDdmLTkzZmYyZTA2NjljNTwvc3RS
+ZWY6aW5zdGFuY2VJRD4KICAgICAgICAgICAgPHN0UmVmOmRvY3VtZW50SUQ+YWRvYmU6ZG9jaWQ6
+cGhvdG9zaG9wOjBlOGJjOTNjLWI0NGUtMTFlOC1iZjhmLWU4N2QzOTQ3MTYwYzwvc3RSZWY6ZG9j
+dW1lbnRJRD4KICAgICAgICAgICAgPHN0UmVmOm9yaWdpbmFsRG9jdW1lbnRJRD54bXAuZGlkOjkw
+MGY4NTY2LWYwOGEtYmM0MC05MmFkLTJlNjRlZWNhYzZlNDwvc3RSZWY6b3JpZ2luYWxEb2N1bWVu
+dElEPgogICAgICAgICA8L3htcE1NOkRlcml2ZWRGcm9tPgogICAgICAgICA8dGlmZjpPcmllbnRh
+dGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj43MjAw
+MDAvMTAwMDA8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjcy
+MDAwMC8xMDAwMDwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6UmVzb2x1dGlvblVu
+aXQ+MjwvdGlmZjpSZXNvbHV0aW9uVW5pdD4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT42NTUz
+NTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+NjQ8L2V4
+aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+NjQ8L2V4
+aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRG
+Pgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKPD94cGFja2V0IGVuZD0idyI/Pq49
+OQoAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAACIVJREFUeNrs
+mlusXFUZgL9/rX05s+fc5lzbHsBKbSWQCFEB0wYjARKMIZHEhPhA4FVN0DcSE0uC+mB4UdSYaDSG
+4CO+oDbRxBgSBKQUWrC10HJoT09Pz2VmTs+Zy76siw8zczi9GVGf7P5fJmvN7L3/9f3XNXuJ957r
+WRTXuZQASgAlgBJACaAEUAIoAZQASgAlgBJACaAEUAIoAZQASgAlgBJACaAEUAK4fiTYPhARhoeH
+bzfG3D08PJyIiErTdDOKoteAY61WiziOCYKAOI4REbz3rK6uEoYhIoJzjkqlAkBRFBhjSNMUgDAM
+McYwNjbG9PQ0IsLCwgJpmjIzM4NSCqUUeZ6T5zmTk5NEUYT3nsEbLBEBoN1us7i4CID3niiK2L17
+N0qpS9Zz5swZ0jRFa01RFFvXO+euBKC1ToCniqL4QqPZDLz3okQya+2RJEkOAq/+X4dAFEVfabfb
+DydJUts5Ozuy96abhseq1clOp/NAo9l8OQiCbyulEJEtkh9VBpYcWHtwHxG5Yu5/Id57RKQWBMHv
+lFKvRVH0vFIqvGoIeO9vFBF2zc0xNzvLvolxbr3jTk5/8D4/e+7Xqt1ufz+Oh+6NovCEUup1rfUx
+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
+gBLAdST/HAAu333cfT5uWQAAAABJRU5ErkJggg==
+"
+       preserveAspectRatio="none"
+       height="80"
+       width="80"
+       transform="matrix(0.86492784,-0.50189623,0.50189623,0.86492784,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5340)"
+       x="684.88342"
+       y="654.86713"
+       id="text5336"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5338"
+         x="684.88342"
+         y="654.86713"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:19.375px;font-family:'Rockwell Condensed';-inkscape-font-specification:'Rockwell Condensed, Bold Condensed';fill:#ffffff;fill-opacity:1;">Grenade Launcher</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 664.42784,621.78468 0,27.02158 18.18274,0"
+       id="path5352"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
