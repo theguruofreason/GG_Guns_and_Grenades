@@ -360,12 +360,19 @@
 	
 	<!-- alter vanilla guns -->
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
 		<value>
-			<weaponTags></weaponTags>
+			<weaponTags inherit="False"></weaponTags>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>BaseGunWithQuality</value>
+	</Operation>
+
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>

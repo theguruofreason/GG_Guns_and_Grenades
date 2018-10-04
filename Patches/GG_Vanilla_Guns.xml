@@ -48,6 +48,10 @@
 				<xpath>Defs/ThingDef[defName="Gun_Revolver"]/recipeMaker</xpath>
 				<value>
 					<recipeMaker>
+						<recipeUsers>
+							<li>ElectricSmithy</li>
+							<li>FueledSmithy</li>
+						</recipeUsers>
 						<researchPrerequisite>Gunsmithing</researchPrerequisite>
 						<skillRequirements>
 							<Crafting>3</Crafting>
@@ -132,53 +136,45 @@
 					</recipeMaker>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]</xpath>
-				<value>
-					<weaponTags>
-						<li>SimpleGun</li>
-					</weaponTags>
-				</value>
-			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/verbs</xpath>
 				<value>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GG_Bullet_762x</defaultProjectile>
-				<warmupTime>1.3</warmupTime>
-				<range>36.9</range>
-				<soundCast>Shot_BoltActionRifle</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
+					<verbs>
+						<li>
+							<verbClass>Verb_Shoot</verbClass>
+							<hasStandardCommand>true</hasStandardCommand>
+							<defaultProjectile>GG_Bullet_762x</defaultProjectile>
+							<warmupTime>1.3</warmupTime>
+							<range>36.9</range>
+							<soundCast>Shot_BoltActionRifle</soundCast>
+							<soundCastTail>GunTail_Heavy</soundCastTail>
+							<muzzleFlashScale>9</muzzleFlashScale>
+						</li>
+					</verbs>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/tools</xpath>
 				<value>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>13</power>
-				<cooldownTime>2.5</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
+					<tools>
+						<li>
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>13</power>
+							<cooldownTime>2.5</cooldownTime>
+						</li>
+						<li>
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+								<li>Poke</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2</cooldownTime>
+						</li>
+					</tools>
 				</value>
 			</li>
 		</operations>
@@ -215,51 +211,51 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_Autopistol"]/costList</xpath>
 				<value>
-		<costList>
-			<Steel>40</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
+					<costList>
+						<Steel>40</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_Autopistol"]/verbs</xpath>
 				<value>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GG_Bullet_9mm</defaultProjectile>
-				<warmupTime>0.3</warmupTime>
-				<range>25.9</range>
-				<soundCast>Shot_Autopistol</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
+					<verbs>
+						<li>
+							<verbClass>Verb_Shoot</verbClass>
+							<hasStandardCommand>true</hasStandardCommand>
+							<defaultProjectile>GG_Bullet_9mm</defaultProjectile>
+							<warmupTime>0.3</warmupTime>
+							<range>25.9</range>
+							<soundCast>Shot_Autopistol</soundCast>
+							<soundCastTail>GunTail_Light</soundCastTail>
+							<muzzleFlashScale>9</muzzleFlashScale>
+						</li>
+					</verbs>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_Autopistol"]/tools</xpath>
 				<value>
-		<tools>
-			<li>
-				<label>grip</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>7</power>
-				<cooldownTime>1.7</cooldownTime>
-			</li>
-		</tools>
+					<tools>
+						<li>
+							<label>grip</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2</cooldownTime>
+						</li>
+						<li>
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+								<li>Poke</li>
+							</capacities>
+							<power>7</power>
+							<cooldownTime>1.7</cooldownTime>
+						</li>
+					</tools>
 				</value>
 			</li>
 		</operations>
@@ -376,29 +372,29 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/recipeMaker</xpath>
 				<value>
-		<recipeMaker>
-			<researchPrerequisite>GasOperation</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-		</recipeMaker>
+					<recipeMaker>
+						<researchPrerequisite>GasOperation</researchPrerequisite>
+						<skillRequirements>
+							<Crafting>5</Crafting>
+						</skillRequirements>
+					</recipeMaker>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/verbs</xpath>
 				<value>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GG_Bullet_Shotgun</defaultProjectile>
-				<warmupTime>0.6</warmupTime>
-				<range>21.9</range>
-				<soundCast>Shot_Shotgun</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>12</muzzleFlashScale>
-			</li>
-		</verbs>
+					<verbs>
+						<li>
+							<verbClass>Verb_Shoot</verbClass>
+							<hasStandardCommand>true</hasStandardCommand>
+							<defaultProjectile>GG_Bullet_Shotgun</defaultProjectile>
+							<warmupTime>0.6</warmupTime>
+							<range>21.9</range>
+							<soundCast>Shot_Shotgun</soundCast>
+							<soundCastTail>GunTail_Heavy</soundCastTail>
+							<muzzleFlashScale>12</muzzleFlashScale>
+						</li>
+					</verbs>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -412,25 +408,25 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/tools</xpath>
 				<value>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>14</power>
-				<cooldownTime>2.6</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
+					<tools>
+						<li>
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>14</power>
+							<cooldownTime>2.6</cooldownTime>
+						</li>
+						<li>
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+								<li>Poke</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2</cooldownTime>
+						</li>
+					</tools>
 				</value>
 			</li>
 		</operations>
@@ -527,20 +523,9 @@
 		</operations>
 	</Operation>
 
-	<Operation>
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/recipeMaker</xpath>
-				<value>
-					<recipeMaker>
-						<researchPrerequisite>GasOperation</researchPrerequisite>
-						<skillRequirements>
-							<Crafting>5</Crafting>
-						</skillRequirements>
-					</recipeMaker>
-				</value>
-			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/statBases</xpath>
 				<value>
@@ -583,8 +568,8 @@
 					</verbs>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/weaponTags</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_HeavySMG"]</xpath>
 				<value>
 					<weaponTags>
 						<li>IndustrialGunAdvanced</li>
@@ -618,7 +603,7 @@
 		</operations>
 	</Operation>
 
-	<Operation>
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
@@ -708,84 +693,175 @@
 		</operations>
 	</Operation>
 
-	<Operation>
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_LMG"]/recipeMaker</xpath>
 				<value>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-    </recipeMaker>
+					<recipeMaker>
+						<researchPrerequisite>GG_BeltFedWeapons</researchPrerequisite>
+						<skillRequirements>
+							<Crafting>8</Crafting>
+						</skillRequirements>
+					</recipeMaker>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_LMG"]/statBases</xpath>
 				<value>
-    <statBases>
-      <WorkToMake>58000</WorkToMake>
-      <Mass>8.5</Mass>
-      <AccuracyTouch>0.10</AccuracyTouch>
-      <AccuracyShort>0.22</AccuracyShort>
-      <AccuracyMedium>0.30</AccuracyMedium>
-      <AccuracyLong>0.10</AccuracyLong>
-      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
-    </statBases>
+					<statBases>
+						<WorkToMake>58000</WorkToMake>
+						<Mass>8.5</Mass>
+						<AccuracyTouch>0.10</AccuracyTouch>
+						<AccuracyShort>0.22</AccuracyShort>
+						<AccuracyMedium>0.30</AccuracyMedium>
+						<AccuracyLong>0.10</AccuracyLong>
+						<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+					</statBases>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_LMG"]/costList</xpath>
 				<value>
-    <costList>
-      <Steel>140</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
-    </costList>
+					<costList>
+						<Steel>140</Steel>
+						<ComponentIndustrial>5</ComponentIndustrial>
+						<ComponentSpacer>2</ComponentSpacer>
+					</costList>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_LMG"]/verbs</xpath>
 				<value>
-    <verbs>
-      <li>
-	<verbClass>Verb_Shoot</verbClass>
-	<hasStandardCommand>true</hasStandardCommand>
-	<defaultProjectile>GG_Bullet_556x</defaultProjectile>
-	<warmupTime>1.0</warmupTime>
-	<range>38.9</range>
-	<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-	<burstShotCount>5</burstShotCount>
-	<soundCast>Shot_AssaultRifle</soundCast>
-	<soundCastTail>GunTail_Medium</soundCastTail>
-	<muzzleFlashScale>13</muzzleFlashScale>
-      </li>
-    </verbs>
+					<verbs>
+						<li>
+							<verbClass>Verb_Shoot</verbClass>
+							<hasStandardCommand>true</hasStandardCommand>
+							<defaultProjectile>GG_Bullet_556x</defaultProjectile>
+							<warmupTime>1.0</warmupTime>
+							<range>38.9</range>
+							<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+							<burstShotCount>5</burstShotCount>
+							<soundCast>Shot_AssaultRifle</soundCast>
+							<soundCastTail>GunTail_Medium</soundCastTail>
+							<muzzleFlashScale>13</muzzleFlashScale>
+						</li>
+					</verbs>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_LMG"]/tools</xpath>
 				<value>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>11</power>
-        <cooldownTime>2.3</cooldownTime>
-      </li>
-    </tools>
+					<tools>
+						<li>
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>16</power>
+							<cooldownTime>3</cooldownTime>
+						</li>
+						<li>
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+								<li>Poke</li>
+							</capacities>
+							<power>11</power>
+							<cooldownTime>2.3</cooldownTime>
+						</li>
+					</tools>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/statBases</xpath>
+				<value>
+					<statBases>
+						<WorkToMake>58000</WorkToMake>
+						<Mass>4.6</Mass>
+						<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+					</statBases>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>75</Steel>
+						<WoodLog>5</WoodLog>
+						<ComponentIndustrial>5</ComponentIndustrial>
+						<Chemfuel>60</Chemfuel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/generateCommonality</xpath>
+				<value>
+					<generateCommonality>0.05</generateCommonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/recipeMaker</xpath>
+				<value>
+					<recipeMaker>
+						<researchPrerequisite>GG_GrenadeLaunchers</researchPrerequisite>
+						<skillRequirements>
+							<Crafting>7</Crafting>
+						</skillRequirements>
+					</recipeMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/verbs</xpath>
+				<value>
+					<verbs>
+						<li>
+							<verbClass>Verb_Shoot</verbClass>
+							<hasStandardCommand>true</hasStandardCommand>
+							<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+							<warmupTime>3.5</warmupTime>
+							<range>23.9</range>
+							<forcedMissRadius>1.9</forcedMissRadius>
+							<burstShotCount>1</burstShotCount>
+							<soundCast>Shot_IncendiaryLauncher</soundCast>
+							<soundCastTail>GunTail_Medium</soundCastTail>
+							<muzzleFlashScale>14</muzzleFlashScale>
+							<targetParams>
+								<canTargetLocations>true</canTargetLocations>
+							</targetParams>
+						</li>
+					</verbs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/tools</xpath>
+				<value>
+					<tools>
+						<li>
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2</cooldownTime>
+						</li>
+						<li>
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+								<li>Poke</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2</cooldownTime>
+						</li>
+					</tools>
 				</value>
 			</li>
 		</operations>
