@@ -358,13 +358,14 @@
 		</value>
 	</Operation>
 	
-	<!-- remove vanilla guns -->
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
-	</Operation>
-	
 	<!-- alter vanilla guns -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+		<value>
+			<weaponTags></weaponTags>
+		</value>
+	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
