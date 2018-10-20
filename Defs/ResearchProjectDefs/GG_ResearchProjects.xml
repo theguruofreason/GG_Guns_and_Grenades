@@ -39,7 +39,7 @@
       <li>Smithing</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewY>1.5</researchViewY>
   </ResearchProjectDef>
   
   <!-- T1 Firearm Research  -->

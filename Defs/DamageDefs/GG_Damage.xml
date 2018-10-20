@@ -17,8 +17,8 @@
     <defaultDamage>29</defaultDamage>
     <defaultStoppingPower>3</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <explosionBuildingDamageFactor>4</explosionBuildingDamageFactor>
-    <explosionPlantDamageFactor>4</explosionPlantDamageFactor>
+    <buildingDamageFactor>4</buildingDamageFactor>
+    <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>3</explosionHeatEnergyPerCell>
     <explosionCellMote>Mote_BlastDry</explosionCellMote>
@@ -44,8 +44,8 @@
     <defaultDamage>39</defaultDamage>
     <defaultStoppingPower>6</defaultStoppingPower>
     <defaultArmorPenetration>0.40</defaultArmorPenetration>
-    <explosionBuildingDamageFactor>4</explosionBuildingDamageFactor>
-    <explosionPlantDamageFactor>4</explosionPlantDamageFactor>
+    <buildingDamageFactor>4</buildingDamageFactor>
+    <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
     <explosionCellMote>Mote_BlastDry</explosionCellMote>
