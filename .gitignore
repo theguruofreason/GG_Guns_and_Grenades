@@ -1,6 +1,5 @@
 *.xcf
 *.svg
-About/*.png
 !About/Preview.png
 #*
 .#*
