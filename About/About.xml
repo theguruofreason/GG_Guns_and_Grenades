@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <ModMetaData>
-        <name>Gasch's Gear - Guns and Grenades [B19]</name>
-        <author>Gasch</author>
-        <url></url>
-        <targetVersion>0.19.2</targetVersion>
-		<description>Mo' guns and grenades and shi'.
-		</description>
+<ModMetaData>
+<name>Gasch's Gear - Guns and Grenades [1.1]</name>
+<author>Gasch</author>
+<url></url>
+<supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+</supportedVersions>
+<packageId>Gasch.GaschsGearGunsandGrenades</packageId>
+<description>Mo' guns and grenades and shi'.
+</description>
 </ModMetaData>

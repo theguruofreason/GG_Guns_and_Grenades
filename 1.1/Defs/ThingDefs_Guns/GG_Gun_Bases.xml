@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="GG_RudimentaryGun" ParentName="BaseGunWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_ModernGun" ParentName="BaseGunWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_SpacerGun" ParentName="BaseGunWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
+
+  <ThingDef Name="GG_BaseMakeableGunSG" ParentName="GG_RudimentaryGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GG_SimpleGunsmithing</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunBL" ParentName="GG_RudimentaryGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GG_BreechLoading</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunRA" ParentName="GG_RudimentaryGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunR" ParentName="GG_RudimentaryGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GG_Rifling</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunBO" ParentName="GG_ModernGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunHCR" ParentName="GG_ModernGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GG_HighCaliberRounds</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunO" ParentName="GG_ModernGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunAF" ParentName="GG_ModernGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunMBW" ParentName="GG_SpacerGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunBFW" ParentName="GG_SpacerGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GG_BeltFedWeapons</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunCS" ParentName="GG_SpacerGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunFCW" ParentName="GG_SpacerGun" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>GG_FiftyCalWeapons</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableGunGL" ParentName="BaseGunWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>GG_GrenadeLaunchers</researchPrerequisite>
+    </recipeMaker>
+    <weaponTags>
+      <li>Gun</li>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+  </ThingDef>
+  
+</Defs>

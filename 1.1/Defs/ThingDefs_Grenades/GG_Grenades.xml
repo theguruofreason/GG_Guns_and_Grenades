@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Grenades -->
+  
+  <ThingDef Name="GG_BaseMakeableSimpleGrenade" ParentName="BaseWeapon" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>GG_SimpleGrenades</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="GG_BaseMakeableAdvancedGrenade" ParentName="BaseWeapon" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GG_AdvancedGrenades</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="GG_BaseMakeableSimpleGrenade">
+    <defName>GG_Weapon_CastGrenade</defName>
+    <label>cast grenades</label>
+    <description>Ancient rudimentary grenades made by packing gunpowder into a cast-iron shell and plugging it with a powder-laden fuse. Their weight makes them difficult to throw long distances, but they still pack a punch.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Grenades/Cast_Grenade_Pile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <Mass>3.6</Mass>
+      <RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
+      <WorkToMake>8000</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+				<label>throw cast grenade</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>9.9</range>
+				<forcedMissRadius>2.3</forcedMissRadius>
+				<warmupTime>1.7</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>GG_Proj_CastGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.66</explosiveRadius>
+        <explosiveDamageType>GG_CastBomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>GG_Proj_CastGrenade</defName>
+    <label>frag grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Cast_Grenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius >2.4</explosionRadius >
+      <damageDef>GG_CastBomb</damageDef>
+      <speed>12</speed>
+      <explosionDelay>140</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GG_BaseMakeableAdvancedGrenade">
+    <defName>GG_Weapon_IncendiaryGrenade</defName>
+    <label>incendiary grenade</label>
+    <description>A canister containing shaved metals which ignite to produce a thermite reaction. It burns hot enough to melt steel, but has a relatively small radius.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Grenades/Incendiary_Grenades_Belt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+      <WorkToMake>28000</WorkToMake>
+    </statBases>
+    <costList>
+      <Cloth>25</Cloth>
+      <Steel>40</Steel>
+      <Chemfuel>30</Chemfuel>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw incendiary grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>GG_Proj_IncendiaryGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.9</explosiveRadius>
+        <explosiveDamageType>GG_IncendiaryFlame</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>GG_Proj_IncendiaryGrenade</defName>
+    <label>incendiary grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Incendiary_Grenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>2.2</explosionRadius>
+      <damageDef>GG_IncendiaryFlame</damageDef>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <explosionChanceToStartFire>0.98</explosionChanceToStartFire>
+      <explosionDelay>80</explosionDelay>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+  
+  <!-- Launchers -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>GG_Bullet_GrenadeLauncher</defName>
+    <label>launched frag grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>GG_FragGrenadeBomb</damageDef>
+      <explosionRadius>3.6</explosionRadius>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="GG_BaseMakeableGunGL">
+    <defName>GG_Gun_GrenadeLauncher</defName>
+    <label>grenade launcher</label>
+    <description>Relying on pawn power for explosive charge delivery is unreliable and flacid. Our engineers have designed pneumatic apparatus to overcome these problems.</description>
+    <graphicData>
+      <texPath>Things/Grenades/Grenade_Launcher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.08</generateCommonality>
+    <statBases>
+      <WorkToMake>52000</WorkToMake>
+      <Mass>3.4</Mass>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <WoodLog>5</WoodLog>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Chemfuel>20</Chemfuel>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GG_Bullet_GrenadeLauncher</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>23.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>  
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_IncendiaryLauncher</defName>
+    <label>incendiary bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>GG_IncendiaryFlame</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>2.4</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <explosionChanceToStartFire>0.98</explosionChanceToStartFire>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+	
+</Defs>
