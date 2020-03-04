@@ -482,4 +482,11 @@
 		</value>
 	</Operation>
 	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[@Name="GrenadierBase"]/weaponMoney</xpath>
+		<value>
+			<weaponMoney>505~505</weaponMoney>
+		</value>
+	</Operation>
+	
 </Patch>
