@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Gasch's Gear - Guns and Grenades [1.1]</name>
-<author>Gasch</author>
-<url></url>
-<supportedVersions>
-	<li>1.0</li>
-	<li>1.1</li>
-</supportedVersions>
-<packageId>Gasch.GaschsGearGunsandGrenades</packageId>
-<description>Expands the world of weapons in Rimworld to include more intermediate variants while simultaneously diversifying weapons to accentuate strengths and weaknesses. This mod also keeps the flavor of vanilla Rimworld. New weapons are generic (no specific model names like 'SKS' or 'FN FAL/SA-58'), and the icons have been lovingly crafted to blend right into vanilla textures. The tech tree has also been reworked to allow a smooth progression through weapons technology with viable choices at every stage.
-</description>
+	<name>Gasch's Gear - Guns and Grenades</name>
+	<author>Gasch</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>Gasch.GaschsGearGunsandGrenades</packageId>
+	<description>Expands the world of weapons in Rimworld to include more intermediate variants while simultaneously diversifying weapons to accentuate strengths and weaknesses. This mod also keeps the flavor of vanilla Rimworld. New weapons are generic (no specific model names like 'SKS' or 'FN FAL/SA-58'), and the icons have been lovingly crafted to blend right into vanilla textures. The tech tree has also been reworked to allow a smooth progression through weapons technology with viable choices at every stage.
+	</description>
 </ModMetaData>
