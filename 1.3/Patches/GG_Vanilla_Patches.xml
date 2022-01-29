@@ -1,409 +1,465 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
 	<!-- alter vanilla research prereqs -->
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Mortars"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>GG_GrenadeLaunchers</li>
-			</prerequisites>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>GasOperation</li>
-			</prerequisites>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>GunTurrets</li>
-				<li>MicroelectronicsBasics</li>
-			</prerequisites>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>HeavyTurrets</li>
-				<li>MultiAnalyzer</li>
-				<li>GG_FiftyCalWeapons</li>
-			</prerequisites>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/techLevel</xpath>
-		<value>
-		  <techLevel>Spacer</techLevel>
-		</value>
+	<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Mortars"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>GG_GrenadeLaunchers</li>
+				</prerequisites>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>GasOperation</li>
+				</prerequisites>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>GunTurrets</li>
+					<li>MicroelectronicsBasics</li>
+				</prerequisites>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>HeavyTurrets</li>
+					<li>MultiAnalyzer</li>
+					<li>GG_FiftyCalWeapons</li>
+				</prerequisites>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/techLevel</xpath>
+			<value>
+			  <techLevel>Spacer</techLevel>
+			</value>
+		</li>
+	</operations>
 	</Operation>
 	
 	<!-- gunsmithing -->
   
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/label</xpath>
-		<value>
-			<label>repeating actions</label>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
-		<value>
-			<tab>GGResearchTab</tab>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/description</xpath>
-		<value>
-			<description>The advent of cartridges, lever-action, bolt-action, and hammers allows production of firearms which fire more reliably and at a faster rate.</description>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/baseCost</xpath>
-		<value>
-			<baseCost>700</baseCost>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>GG_SimpleGunsmithing</li>
-			</prerequisites>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewX</xpath>
-		<value>
-			<researchViewX>1</researchViewX>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewY</xpath>
-		<value>
-			<researchViewY>1</researchViewY>
-		</value>
+	<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/label</xpath>
+			<value>
+				<label>repeating actions</label>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
+			<value>
+				<tab>GGResearchTab</tab>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/description</xpath>
+			<value>
+				<description>The advent of cartridges, lever-action, bolt-action, and hammers allows production of firearms which fire more reliably and at a faster rate.</description>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/baseCost</xpath>
+			<value>
+				<baseCost>700</baseCost>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>GG_SimpleGunsmithing</li>
+				</prerequisites>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewX</xpath>
+			<value>
+				<researchViewX>1</researchViewX>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewY</xpath>
+			<value>
+				<researchViewY>1</researchViewY>
+			</value>
+		</li>
+	</operations>
 	</Operation>
 	
 	<!-- blowback operation -->
   
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/baseCost</xpath>
-		<value>
-			<baseCost>1000</baseCost>
-		</value>
-	</Operation>
+	<Operation Class="PatchOperationSequence">
+	<operations>
   
-  <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
-		<value>
-			<tab>GGResearchTab</tab>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/description</xpath>
-		<value>
-			<description>Gunsmiths have learned to harness a portion of kinetic energy once lost during firing and put it to use ejecting the casing and loading a fresh round into the chamber.</description>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>Machining</li>
-				<li>Gunsmithing</li>
-				<li>GG_BreechLoading</li>
-			</prerequisites>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewX</xpath>
-		<value>
-    <researchViewX>2</researchViewX>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewY</xpath>
-		<value>
-    <researchViewY>0</researchViewY>
-		</value>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/baseCost</xpath>
+			<value>
+				<baseCost>1000</baseCost>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+			<value>
+				<tab>GGResearchTab</tab>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/description</xpath>
+			<value>
+				<description>Gunsmiths have learned to harness a portion of kinetic energy once lost during firing and put it to use ejecting the casing and loading a fresh round into the chamber.</description>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>Machining</li>
+					<li>Gunsmithing</li>
+					<li>GG_BreechLoading</li>
+				</prerequisites>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewX</xpath>
+			<value>
+		<researchViewX>2</researchViewX>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewY</xpath>
+			<value>
+		<researchViewY>0</researchViewY>
+			</value>
+		</li>
+	
+	</operations>
 	</Operation>
 	
 	<!-- gas operation -->
   
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/label</xpath>
-		<value>
-			<label>advanced firearms</label>
-		</value>
-	</Operation>
+	<Operation Class="PatchOperationSequence">
+	<operations>
   
-  <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
-		<value>
-			<tab>GGResearchTab</tab>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/description</xpath>
-		<value>
-			<description>The full slew of modern firearms has arrived! It is terrifying.</description>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/baseCost</xpath>
-		<value>
-			<baseCost>2400</baseCost>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>BlowbackOperation</li>
-				<li>GG_HighCaliberRounds</li>
-				<li>PrecisionRifling</li>
-			</prerequisites>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewX</xpath>
-		<value>
-    <researchViewX>3</researchViewX>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewY</xpath>
-		<value>
-    <researchViewY>1</researchViewY>
-		</value>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/label</xpath>
+			<value>
+				<label>advanced firearms</label>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
+			<value>
+				<tab>GGResearchTab</tab>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/description</xpath>
+			<value>
+				<description>The full slew of modern firearms has arrived! It is terrifying.</description>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/baseCost</xpath>
+			<value>
+				<baseCost>2400</baseCost>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>BlowbackOperation</li>
+					<li>GG_HighCaliberRounds</li>
+					<li>PrecisionRifling</li>
+				</prerequisites>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewX</xpath>
+			<value>
+		<researchViewX>3</researchViewX>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewY</xpath>
+			<value>
+		<researchViewY>1</researchViewY>
+			</value>
+		</li>
+		
+	</operations>
 	</Operation>
 	
 	<!-- precision rifling -->
   
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/label</xpath>
-		<value>
-			<label>optics</label>
-		</value>
-	</Operation>
+	<Operation Class="PatchOperationSequence">
+	<operations>
   
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/description</xpath>
-		<value>
-			<description>Learn how to manufacture magnified optics for rifles.</description>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/label</xpath>
+			<value>
+				<label>optics</label>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/description</xpath>
+			<value>
+				<description>Learn how to manufacture magnified optics for rifles.</description>
+			</value>
+		</li>
+		
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/baseCost</xpath>
+			<value>
+				<baseCost>600</baseCost>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]</xpath>
+			<value>
+				<tab>GGResearchTab</tab>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>Machining</li>
+					<li>GG_Rifling</li>
+				</prerequisites>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewX</xpath>
+			<value>
+				<researchViewX>2</researchViewX>
+			</value>
+		</li>
+	  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewY</xpath>
+			<value>
+				<researchViewY>2</researchViewY>
+			</value>
+		</li>
 	
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/baseCost</xpath>
-		<value>
-			<baseCost>600</baseCost>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]</xpath>
-		<value>
-			<tab>GGResearchTab</tab>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>Machining</li>
-				<li>GG_Rifling</li>
-			</prerequisites>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewX</xpath>
-		<value>
-			<researchViewX>2</researchViewX>
-		</value>
-	</Operation>
-  
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewY</xpath>
-		<value>
-			<researchViewY>2</researchViewY>
-		</value>
+	</operations>
 	</Operation>
 	
 	<!-- charged shot -->
   
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>GG_FiftyCalWeapons</li>
-			</prerequisites>
-		</value>
-	</Operation>
+	<Operation Class="PatchOperationSequence">
+	<operations>
+  
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>GG_FiftyCalWeapons</li>
+				</prerequisites>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]</xpath>
-		<value>
-			<tab>GGResearchTab</tab>
-		</value>
-	</Operation>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]</xpath>
+			<value>
+				<tab>GGResearchTab</tab>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/researchViewX</xpath>
-		<value>
-			<researchViewX>5</researchViewX>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/researchViewX</xpath>
+			<value>
+				<researchViewX>5</researchViewX>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/researchViewY</xpath>
-		<value>
-			<researchViewY>2</researchViewY>
-		</value>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/researchViewY</xpath>
+			<value>
+				<researchViewY>2</researchViewY>
+			</value>
+		</li>
+	
+	</operations>
 	</Operation>
 	
 	<!-- multibarrel weapons -->
+  
+	<Operation Class="PatchOperationSequence">
+	<operations>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/baseCost</xpath>
-		<value>
-			<baseCost>1600</baseCost>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/baseCost</xpath>
+			<value>
+				<baseCost>1600</baseCost>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]</xpath>
-		<value>
-			<tab>GGResearchTab</tab>
-		</value>
-	</Operation>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]</xpath>
+			<value>
+				<tab>GGResearchTab</tab>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/techLevel</xpath>
-		<value>
-    <techLevel>Spacer</techLevel>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/techLevel</xpath>
+			<value>
+		<techLevel>Spacer</techLevel>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/prerequisites</xpath>
-		<value>
-			<prerequisites>
-				<li>GasOperation</li>
-			</prerequisites>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>GasOperation</li>
+				</prerequisites>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/researchViewX</xpath>
-		<value>
-			<researchViewX>4</researchViewX>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/researchViewX</xpath>
+			<value>
+				<researchViewX>4</researchViewX>
+			</value>
+		</li>
 
-  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/researchViewY</xpath>
-		<value>
-			<researchViewY>0</researchViewY>
-		</value>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/researchViewY</xpath>
+			<value>
+				<researchViewY>0</researchViewY>
+			</value>
+		</li>
+	
+	</operations>
 	</Operation>
 	
 	<!-- alter vanilla grenades -->
+  
+	<Operation Class="PatchOperationSequence">
+	<operations>
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/recipeMaker/researchPrerequisite</xpath>
-		<value>
-			<researchPrerequisite>GG_SimpleGrenades</researchPrerequisite>
-		</value>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>GG_SimpleGrenades</researchPrerequisite>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>GG_AdvancedGrenades</researchPrerequisite>
+			</value>
+		</li>
+	
+	</operations>
 	</Operation>
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/recipeMaker/researchPrerequisite</xpath>
+	<!-- alter vanilla launchers -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_SmokeLauncher"]/recipeMaker</xpath>
 		<value>
-			<researchPrerequisite>GG_AdvancedGrenades</researchPrerequisite>
+			<researchPrerequisite>GG_GrenadeLaunchers</researchPrerequisite>
 		</value>
 	</Operation>
 	
 	<!-- alter vanilla guns -->
+  
+	<Operation Class="PatchOperationSequence">
+	<operations>
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
-		<value>
-			<weaponTags inherit="False"></weaponTags>
-		</value>
-	</Operation>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+			<value>
+				<weaponTags inherit="False"></weaponTags>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAttributeSet">
+			<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
+			<attribute>ParentName</attribute>
+			<value>BaseGunWithQuality</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+		  <researchPrerequisite>GG_SimpleGunsmithing</researchPrerequisite>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_Minigun"]/recipeMaker</xpath>
+			<value>
+		<recipeMaker>
+		  <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>7</Crafting>
+		  </skillRequirements>
+		  <recipeUsers>
+			<li>FabricationBench</li>
+		  </recipeUsers>
+		</recipeMaker>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_ChargeRifle" or defName="Gun_ChargeLance"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+		  <researchPrerequisite>ChargedShot</researchPrerequisite>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Gun_ChargeRifle"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+		  <researchPrerequisite>ChargedShot</researchPrerequisite>
+			</value>
+		</li>
 	
-	<Operation Class="PatchOperationAttributeSet">
-		<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
-		<attribute>ParentName</attribute>
-		<value>BaseGunWithQuality</value>
-	</Operation>
-
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[@Name="BaseMakeableGun"]/recipeMaker/researchPrerequisite</xpath>
-		<value>
-      <researchPrerequisite>GG_SimpleGunsmithing</researchPrerequisite>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Gun_Minigun"]/recipeMaker</xpath>
-		<value>
-    <recipeMaker>
-      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-      <recipeUsers>
-        <li>FabricationBench</li>
-      </recipeUsers>
-    </recipeMaker>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Gun_ChargeRifle" or defName="Gun_ChargeLance"]/recipeMaker/researchPrerequisite</xpath>
-		<value>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Gun_ChargeRifle"]/recipeMaker/researchPrerequisite</xpath>
-		<value>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
-		</value>
+	</operations>
 	</Operation>
 	
 	<!-- alter vanilla grenade base -->
@@ -416,73 +472,101 @@
 	</Operation>
 	
 	<!-- alter vanilla molotov and frag -->
+  
+	<Operation Class="PatchOperationSequence">
+	<operations>
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/costList</xpath>
-		<value>
-			<costList>
-				<Cloth>25</Cloth>
-				<Chemfuel>30</Chemfuel>
-			</costList>
-		</value>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/costList</xpath>
+			<value>
+				<costList>
+					<Cloth>25</Cloth>
+					<Chemfuel>30</Chemfuel>
+				</costList>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/comps</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_Explosive">
+						<explosiveRadius>3.2</explosiveRadius>
+						<explosiveDamageType>Flame</explosiveDamageType>
+						<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+					</li>
+				</comps>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Proj_GrenadeMolotov"]</xpath>
+			<value>
+				<projectile>
+					<explosionRadius>2.4</explosionRadius>
+					<damageDef>Flame</damageDef>
+					<!-- Use default damage from explosion def -->
+					<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+					<ai_IsIncendiary>true</ai_IsIncendiary>
+				</projectile>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/comps</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_Explosive">
+						<explosiveRadius>5.2</explosiveRadius>
+						<explosiveDamageType>GG_FragGrenadeBomb</explosiveDamageType>
+						<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+					</li>
+				</comps>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Proj_GrenadeFrag"]</xpath>
+			<value>
+				<projectile>
+					<explosionRadius>3.6</explosionRadius>
+					<damageDef>GG_FragGrenadeBomb</damageDef>
+					<!-- Use default damage from explosion def -->
+					<explosionDelay>120</explosionDelay>
+				</projectile>
+			</value>
+		</li>
+	
+	</operations>
 	</Operation>
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_Explosive">
-					<explosiveRadius>3.2</explosiveRadius>
-					<explosiveDamageType>Flame</explosiveDamageType>
-					<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
-				</li>
-			</comps>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Proj_GrenadeMolotov"]</xpath>
-		<value>
-			<projectile>
-				<explosionRadius>2.4</explosionRadius>
-				<damageDef>Flame</damageDef>
-				<!-- Use default damage from explosion def -->
-				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-				<ai_IsIncendiary>true</ai_IsIncendiary>
-			</projectile>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_Explosive">
-					<explosiveRadius>5.2</explosiveRadius>
-					<explosiveDamageType>GG_FragGrenadeBomb</explosiveDamageType>
-					<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
-				</li>
-			</comps>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Proj_GrenadeFrag"]</xpath>
-		<value>
-			<projectile>
-				<explosionRadius>3.6</explosionRadius>
-				<damageDef>GG_FragGrenadeBomb</damageDef>
-				<!-- Use default damage from explosion def -->
-				<explosionDelay>120</explosionDelay>
-			</projectile>
-		</value>
-	</Operation>
-	
+	<!-- Modify grenadier money -->
+		
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/PawnKindDef[@Name="GrenadierBase"]/weaponMoney</xpath>
 		<value>
 			<weaponMoney>505~505</weaponMoney>
 		</value>
+	</Operation>
+	
+	<!-- Remove Chain Shotgun -->
+	
+	<Operation Class="PatchOperationSequence">
+	<operations>
+	
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/recipeMaker</xpath>
+		</li>
+		
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+		</li>
+		
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/thingSetMakerTags</xpath>
+		</li>
+		
+	</operations>
 	</Operation>
 	
 </Patch>
